@@ -1,0 +1,15 @@
+{
+    "default_params": {
+        "a": 5,
+        "b": 5,
+        "c":5
+    },
+
+    "default_param_ranges": {
+        "a":["uniform", "int", 0, 10],
+        "b":["uniform", "int", 0, 10],
+        "c":["uniform", "int", 0, 10]
+    },
+
+    "output_dim": 2
+}

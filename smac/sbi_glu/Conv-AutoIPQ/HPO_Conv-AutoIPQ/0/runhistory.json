@@ -1,0 +1,135 @@
+{
+  "stats": {
+    "submitted": 6,
+    "finished": 6,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.999727965179543,
+      28264.935470819473,
+      1,
+      1742986035.0064878,
+      1743014299.9452317,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      1.0,
+      25978.48106598854,
+      1,
+      1743014300.057346,
+      1743040278.5453348,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      1.0,
+      40355.93079614639,
+      1,
+      1743040278.5915,
+      1743080634.5280962,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      1.0,
+      38586.34002447128,
+      1,
+      1743080634.5834415,
+      1743119220.9363384,
+      {}
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      1.0,
+      22185.62435555458,
+      1,
+      1743119221.0274606,
+      1743141406.658067,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      1.0,
+      22289.4654173851,
+      1,
+      1743141406.7238739,
+      1743163696.1990633,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "constraint_penalty_inf": "True",
+      "method_conv_budget_split_a": 0.6205646954477,
+      "method_conv_budget_split_b": 0.1075078817084,
+      "method_conv_budget_split_c": 0.2117762370035,
+      "method_conv_init_noise": 0.8613412211204,
+      "method_conv_k": 50,
+      "method_conv_learning_rate": 0.9599759148058,
+      "method_conv_optimiser_1": "GD",
+      "method_conv_optimiser_2a": "GD",
+      "method_conv_optimiser_2b": "GD",
+      "method_conv_optimiser_2c": "RS",
+      "method_conv_optimiser_2d": "GD",
+      "method_conv_population_size": 23
+    },
+    "2": {
+      "constraint_penalty_inf": "False",
+      "method_conv_budget_split_a": 0.2304282430559,
+      "method_conv_budget_split_b": 0.6275850171223,
+      "method_conv_budget_split_c": 0.5057428656146,
+      "method_conv_init_noise": 0.0418670642906,
+      "method_conv_k": 81,
+      "method_conv_learning_rate": 0.3576783854,
+      "method_conv_optimiser_1": "RS",
+      "method_conv_optimiser_2a": "HC",
+      "method_conv_optimiser_2b": "RS",
+      "method_conv_optimiser_2c": "GD",
+      "method_conv_optimiser_2d": "HC",
+      "method_conv_population_size": 85,
+      "method_conv_constraint_penalty": 8
+    },
+    "3": {
+      "constraint_penalty_inf": "False",
+      "method_conv_budget_split_a": 0.9217783343047,
+      "method_conv_budget_split_b": 0.2736045382917,
+      "method_conv_budget_split_c": 0.358433813788,
+      "method_conv_init_noise": 0.4245153267695,
+      "method_conv_k": 74,
+      "method_conv_learning_rate": 0.7164934632915,
+      "method_conv_optimiser_1": "CMAES",
+      "method_conv_optimiser_2a": "RS",
+      "method_conv_optimiser_2b": "RS",
+      "method_conv_optimiser_2c": "HC",
+      "method_conv_optimiser_2d": "RS",
+      "method_conv_population_size": 40,
+      "method_conv_constraint_penalty": 4
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol"
+  }
+}

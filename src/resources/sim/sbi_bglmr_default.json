@@ -1,0 +1,29 @@
+{
+    "default_params": {
+        "x1": 0.0,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.0,
+        "x6": 0.0,
+        "x7": 0.0,
+        "x8": 0.0,
+        "x9": 0.0,
+        "x10": 0.0
+    },
+
+    "default_param_ranges": {
+        "x1":["uniform", "float", -10.0, 10.0],
+        "x2":["uniform", "float", -10.0, 10.0],
+        "x3":["uniform", "float", -10.0, 10.0],
+        "x4":["uniform", "float", -10.0, 10.0],
+        "x5":["uniform", "float", -10.0, 10.0],
+        "x6":["uniform", "float", -10.0, 10.0],
+        "x7":["uniform", "float", -10.0, 10.0],
+        "x8":["uniform", "float", -10.0, 10.0],
+        "x9":["uniform", "float", -10.0, 10.0],
+        "x10":["uniform", "float", -10.0, 10.0]
+    },
+
+    "output_dim": 100
+}

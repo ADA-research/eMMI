@@ -1,0 +1,256 @@
+{
+  "stats": {
+    "submitted": 17,
+    "finished": 17,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745574222.3878217,
+      1745574223.0055568,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/default.py\", line 941, in do_execute\n    cursor.execute(statement, parameters)\nsqlite3.IntegrityError: UNIQUE constraint failed: version.version_num\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 346, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 367, in new\n    self.history = History(db)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/storage/history.py\", line 171, in __init__\n    self._set_version()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/storage/history.py\", line 42, in f_wrapper\n    res = f(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/storage/history.py\", line 660, in _set_version\n    self._session.commit()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 2028, in commit\n    trans.commit(_to_root=True)\n  File \"<string>\", line 2, in commit\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py\", line 139, in _go\n    ret_value = fn(self, *arg, **kw)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 1313, in commit\n    self._prepare_impl()\n  File \"<string>\", line 2, in _prepare_impl\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py\", line 139, in _go\n    ret_value = fn(self, *arg, **kw)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 1288, in _prepare_impl\n    self.session.flush()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 4352, in flush\n    self._flush(objects)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 4487, in _flush\n    with util.safe_reraise():\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py\", line 146, in __exit__\n    raise exc_value.with_traceback(exc_tb)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/session.py\", line 4448, in _flush\n    flush_context.execute()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py\", line 466, in execute\n    rec.execute(self)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py\", line 642, in execute\n    util.preloaded.orm_persistence.save_obj(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py\", line 93, in save_obj\n    _emit_insert_statements(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py\", line 1048, in _emit_insert_statements\n    result = connection.execute(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1418, in execute\n    return meth(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/sql/elements.py\", line 515, in _execute_on_connection\n    return connection._execute_clauseelement(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1640, in _execute_clauseelement\n    ret = self._execute_context(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1846, in _execute_context\n    return self._exec_single_context(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1986, in _exec_single_context\n    self._handle_dbapi_exception(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 2355, in _handle_dbapi_exception\n    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/base.py\", line 1967, in _exec_single_context\n    self.dialect.do_execute(\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sqlalchemy/engine/default.py\", line 941, in do_execute\n    cursor.execute(statement, parameters)\nsqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: version.version_num\n[SQL: INSERT INTO version (version_num) VALUES (?)]\n[parameters: ('1',)]\n(Background on this error at: https://sqlalche.me/e/20/gkpj)\n",
+        "error": "IntegrityError('(sqlite3.IntegrityError) UNIQUE constraint failed: version.version_num')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      1.0,
+      1711.8306074142456,
+      1,
+      1745574223.0131392,
+      1745575934.844755,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      1.0,
+      10174.541287899017,
+      1,
+      1745575934.9179862,
+      1745586109.460452,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      1.0,
+      18494.933219909668,
+      1,
+      1745586109.4690537,
+      1745604604.403706,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      1.0,
+      20808.5223197937,
+      1,
+      1745604604.4125123,
+      1745625412.9360838,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      1.0,
+      20408.445870637894,
+      1,
+      1745625412.9434197,
+      1745645821.3905962,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      1.0,
+      24250.893761634827,
+      1,
+      1745645821.3967795,
+      1745670072.2918768,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745670072.2986116,
+      1745688597.1725104,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.9993056278859841,
+      4321.088976383209,
+      1,
+      1745688597.1808112,
+      1745692918.2712142,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.9991668113174796,
+      4679.680670261383,
+      1,
+      1745692918.2791562,
+      1745697597.96135,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      0.9997916377274622,
+      5030.412048578262,
+      1,
+      1745697597.9680989,
+      1745702628.381457,
+      {}
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      0.995149499359041,
+      3721.091547012329,
+      1,
+      1745702628.3906548,
+      1745706349.4834733,
+      {}
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      0.993491882161526,
+      4051.475922346115,
+      1,
+      1745706349.4913695,
+      1745710400.968472,
+      {}
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      0.994527569963979,
+      3579.711175441742,
+      1,
+      1745710400.9765136,
+      1745713980.6889846,
+      {}
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745713980.6986542,
+      1745738561.414179,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745738561.4230638,
+      1745746419.1335332,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745746419.1448622,
+      1745772907.3410635,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_abcsmc_num_populations": 27
+    },
+    "2": {
+      "bl_abcsmc_num_populations": 72
+    },
+    "3": {
+      "bl_abcsmc_num_populations": 84
+    },
+    "4": {
+      "bl_abcsmc_num_populations": 15
+    },
+    "5": {
+      "bl_abcsmc_num_populations": 11
+    },
+    "6": {
+      "bl_abcsmc_num_populations": 92
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol"
+  }
+}

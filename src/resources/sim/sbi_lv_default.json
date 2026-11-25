@@ -1,0 +1,49 @@
+{
+    "default_params": {
+        "x1": 0.0,
+        "x2": 0.0,
+        "x3": 0.0,
+        "x4": 0.0,
+        "x5": 0.0,
+        "x6": 0.0,
+        "x7": 0.0,
+        "x8": 0.0,
+        "x9": 0.0,
+        "x10": 0.0,
+        "x11": 0.0,
+        "x12": 0.0,
+        "x13": 0.0,
+        "x14": 0.0,
+        "x15": 0.0,
+        "x16": 0.0,
+        "x17": 0.0,
+        "x18": 0.0,
+        "x19": 0.0,
+        "x20": 0.0
+    },
+
+    "default_param_ranges": {
+        "x1":["uniform", "float", -3.0, 3.0],
+        "x2":["uniform", "float", -3.0, 3.0],
+        "x3":["uniform", "float", -3.0, 3.0],
+        "x4":["uniform", "float", -3.0, 3.0],
+        "x5":["uniform", "float", -3.0, 3.0],
+        "x6":["uniform", "float", -3.0, 3.0],
+        "x7":["uniform", "float", -3.0, 3.0],
+        "x8":["uniform", "float", -3.0, 3.0],
+        "x9":["uniform", "float", -3.0, 3.0],
+        "x10":["uniform", "float", -3.0, 3.0],
+        "x11":["uniform", "float", -3.0, 3.0],
+        "x12":["uniform", "float", -3.0, 3.0],
+        "x13":["uniform", "float", -3.0, 3.0],
+        "x14":["uniform", "float", -3.0, 3.0],
+        "x15":["uniform", "float", -3.0, 3.0],
+        "x16":["uniform", "float", -3.0, 3.0],
+        "x17":["uniform", "float", -3.0, 3.0],
+        "x18":["uniform", "float", -3.0, 3.0],
+        "x19":["uniform", "float", -3.0, 3.0],
+        "x20":["uniform", "float", -3.0, 3.0]
+    },
+
+    "output_dim": 4
+}

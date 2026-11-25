@@ -1,0 +1,516 @@
+{
+  "stats": {
+    "submitted": 32,
+    "finished": 32,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745574235.8403761,
+      1745574561.053729,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      1.0,
+      2445.544178247452,
+      1,
+      1745574561.0781088,
+      1745577006.6234484,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745577006.6324258,
+      1745577219.9112844,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745577219.9193425,
+      1745577426.8560154,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745577426.8655474,
+      1745578325.732359,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745578325.7400155,
+      1745578482.2777035,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745578482.2854033,
+      1745578664.3397288,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745578664.3477554,
+      1745578845.2573364,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    history = abc.run(minimum_epsilon=p[\"exp_epsilon\"], max_nr_populations=num_populations)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      1.0,
+      2084.3378269672394,
+      1,
+      1745578845.2643652,
+      1745580929.6033866,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      1.0,
+      2500.9161746501923,
+      1,
+      1745580929.623646,
+      1745583430.5409076,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      1.0,
+      2777.401909351349,
+      1,
+      1745583430.5484173,
+      1745586207.951261,
+      {}
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      1.0,
+      2452.437473297119,
+      1,
+      1745586207.9589198,
+      1745588660.3975081,
+      {}
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      1.0,
+      2626.577274799347,
+      1,
+      1745588660.4048338,
+      1745591286.9831936,
+      {}
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      1.0,
+      2942.8049726486206,
+      1,
+      1745591286.9903562,
+      1745594229.796347,
+      {}
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745594229.8052392,
+      1745594563.4841492,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745594563.493354,
+      1745594804.7636354,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745594804.7729938,
+      1745595101.608994,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745595101.6216347,
+      1745595449.5958176,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745595449.6087499,
+      1745595966.5167396,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745595966.524862,
+      1745596478.7386973,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745596478.7494335,
+      1745596902.3898811,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745596902.4001853,
+      1745597364.5840423,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745597364.5932703,
+      1745597929.303467,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745597929.312174,
+      1745598244.4947157,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745598244.5046146,
+      1745599199.5341349,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745599199.544187,
+      1745600078.0335064,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      10,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745600078.0453086,
+      1745600544.693879,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      10,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745600544.703676,
+      1745600927.3422005,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      10,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745600927.3514779,
+      1745601326.3164968,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      11,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745601327.1209838,
+      1745601812.7238896,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      11,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745601812.733915,
+      1745602522.2868102,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ],
+    [
+      11,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745602522.2970376,
+      1745603175.2530046,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 453, in run_experiment_smac\n    preds = run_ABCSMC(p, sim, data[\"val\"][\"X\"][i], test_X, num_populations=p[\"bl_abcsmc_num_populations\"])\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 348, in run_ABCSMC\n    abc.new(\"sqlite:///\" + db_path, {\"data\": observation})\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 62, in wrapped_run\n    ret = run(self, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 700, in run\n    ret = self.run_generation(t=t)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/inference/smc.py\", line 834, in run_generation\n    population = sample.get_accepted_population()\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 397, in get_accepted_population\n    return Population(self.accepted_particles.copy())\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/pyabc/population/population.py\", line 98, in __init__\n    raise AssertionError(\nAssertionError: The population total weight nan is not normalized.\n",
+        "error": "AssertionError('The population total weight nan is not normalized.')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_abcsmc_num_populations": 27
+    },
+    "2": {
+      "bl_abcsmc_num_populations": 72
+    },
+    "3": {
+      "bl_abcsmc_num_populations": 84
+    },
+    "4": {
+      "bl_abcsmc_num_populations": 15
+    },
+    "5": {
+      "bl_abcsmc_num_populations": 11
+    },
+    "6": {
+      "bl_abcsmc_num_populations": 92
+    },
+    "7": {
+      "bl_abcsmc_num_populations": 55
+    },
+    "8": {
+      "bl_abcsmc_num_populations": 47
+    },
+    "9": {
+      "bl_abcsmc_num_populations": 42
+    },
+    "10": {
+      "bl_abcsmc_num_populations": 61
+    },
+    "11": {
+      "bl_abcsmc_num_populations": 52
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol",
+    "9": "Initial Design: Sobol",
+    "10": "Initial Design: Sobol",
+    "11": "Acquisition Function Maximizer: Local Search"
+  }
+}

@@ -1,0 +1,186 @@
+{
+    "name": "HPO_RF",
+    "deterministic": false,
+    "objectives": "cost",
+    "crash_cost": Infinity,
+    "termination_cost_threshold": Infinity,
+    "walltime_limit": 172800,
+    "cputime_limit": Infinity,
+    "trial_walltime_limit": null,
+    "trial_memory_limit": null,
+    "n_trials": 100,
+    "use_default_config": false,
+    "instances": null,
+    "instance_features": null,
+    "min_budget": null,
+    "max_budget": null,
+    "seed": 0,
+    "n_workers": 1,
+    "_meta": {
+        "facade": {
+            "name": "HyperparameterOptimizationFacade"
+        },
+        "runner": {
+            "name": "TargetFunctionRunner",
+            "code": "b't\\x00\\xa0\\x01\\xa1\\x00\\x89\\x01t\\x02}\\x02t\\x03}\\x03t\\x04}\\x04t\\x05}\\x05t\\x06}\\x06|\\x00\\xa0\\x07\\xa1\\x00}\\x07|\\x07\\xa0\\x08\\xa1\\x00D\\x00]\\x1a\\\\\\x02}\\x08}\\t|\\td\\x01k\\x02r d\\x02}\\t|\\td\\x03k\\x02r&d\\x04}\\t|\\td\\x05k\\x02r,d\\x00}\\t|\\t\\x88\\x01|\\x08<\\x00q\\x16d\\x06|\\x07v\\x00rV|\\x07d\\x06\\x19\\x00|\\x07d\\x07\\x19\\x00\\x17\\x00|\\x07d\\x08\\x19\\x00\\x17\\x00}\\n|\\x07d\\x06\\x19\\x00|\\n\\x1b\\x00|\\x07d\\x07\\x19\\x00|\\n\\x1b\\x00|\\x07d\\x08\\x19\\x00|\\n\\x1b\\x00g\\x03}\\x0b|\\x0b\\x88\\x01d\\t<\\x00d\\n|\\x07v\\x00ret\\t|\\x07d\\n\\x19\\x00|\\x07d\\x0b\\x19\\x00\\x83\\x02\\x88\\x01d\\n<\\x00d\\x0c|\\x07v\\x00r\\xc4d\\rd\\x0el\\nm\\x0b}\\x0cm\\x0c}\\rm\\r}\\x0em\\x0e}\\x0fm\\x0f}\\x10m\\x10}\\x11m\\x11}\\x12\\x01\\x00|\\x07d\\x0c\\x19\\x00}\\x13|\\x13d\\x0fk\\x02r\\x89|\\x0c\\x83\\x00\\x88\\x01d\\x0c<\\x00n;|\\x13d\\x10k\\x02r\\x93|\\r\\x83\\x00\\x88\\x01d\\x0c<\\x00n1|\\x13d\\x11k\\x02r\\x9d|\\x0e\\x83\\x00\\x88\\x01d\\x0c<\\x00n\\'|\\x13d\\x12k\\x02r\\xa7|\\x0f\\x83\\x00\\x88\\x01d\\x0c<\\x00n\\x1d|\\x13d\\x13k\\x02r\\xb1|\\x10\\x83\\x00\\x88\\x01d\\x0c<\\x00n\\x13|\\x13d\\x14k\\x02r\\xbb|\\x11\\x83\\x00\\x88\\x01d\\x0c<\\x00n\\t|\\x13d\\x15k\\x02r\\xc4|\\x12\\x83\\x00\\x88\\x01d\\x0c<\\x00d\\x16|\\x07v\\x00r\\xccd\\x00\\x88\\x01d\\x17<\\x00d\\x18|\\x07v\\x00r\\xd4d\\x00\\x88\\x01d\\x19<\\x00|\\x02d\\x1a\\x19\\x00d\\x1bv\\x00\\x90\\x01r\\x18|\\x02d\\x1a\\x19\\x00d\\x1ck\\x02r\\xe9t\\x12\\x88\\x01|\\x03\\x83\\x02\\\\\\x02}\\x14}\\x15n/|\\x02d\\x1a\\x19\\x00d\\x1dk\\x02r\\xf7t\\x13\\x88\\x01|\\x03\\x83\\x02\\\\\\x02}\\x14}\\x15n!|\\x02d\\x1a\\x19\\x00d\\x1ek\\x02\\x90\\x01r\\x06t\\x14\\x88\\x01|\\x03\\x83\\x02\\\\\\x02}\\x14}\\x15n\\x12|\\x02d\\x1a\\x19\\x00d\\x1fv\\x00\\x90\\x01r\\x15t\\x12\\x88\\x01|\\x03\\x83\\x02\\\\\\x02}\\x16}\\x15n\\x03t\\x15\\x83\\x00\\x82\\x01|\\x03d \\x19\\x00d!\\x19\\x00j\\x16d\\r\\x19\\x00}\\x17t\\x17\\xa0\\x18|\\x17\\xa1\\x01d\\x00|\\x06\\x85\\x02\\x19\\x00}\\x18t\\x17j\\x19\\xa0\\x1a|\\x18\\xa1\\x01\\x01\\x00t\\x17j\\x19\\xa0\\x1b\\x88\\x01d\"\\x19\\x00\\xa1\\x01\\x01\\x00g\\x00}\\x19|\\x18D\\x00\\x90\\x01]N}\\x1a|\\x03d \\x19\\x00d!\\x19\\x00|\\x1a\\x19\\x00}\\x1b|\\x03d \\x19\\x00d#\\x19\\x00|\\x1a\\x19\\x00\\x89\\x00|\\x03d \\x19\\x00d$\\x19\\x00|\\x1a\\x19\\x00}\\x1c|\\x03d \\x19\\x00d%\\x19\\x00|\\x1a\\x19\\x00\\x88\\x01d&\\x19\\x00\\x17\\x00}\\x1d\\x87\\x00\\x87\\x01f\\x02d\\'d(\\x84\\x08t\\x1ct\\x1d\\x88\\x01d)\\x19\\x00\\x83\\x01\\x83\\x01D\\x00\\x83\\x01}\\x1et\\x1e\\x88\\x01d*\\x19\\x00\\x88\\x01d+\\x19\\x00|\\x1ed,\\x8d\\x03}\\x1f\\x88\\x01d-\\x19\\x00d.k\\x02\\x90\\x01r\\x8ft\\x1f\\x88\\x01|\\x02|\\x1a|\\x1d\\x83\\x04\\\\\\x02} }!n\\x1d\\x88\\x01d-\\x19\\x00d/k\\x02\\x90\\x01r\\xa2t\\x1f\\x88\\x01|\\x02|\\x1a|\\x1dd/d0\\x8d\\x05\\\\\\x02} }!n\\nt \\x88\\x01|\\x1f|\\x1b|\\x1d|\\x05\\x83\\x05\\\\\\x02} }!| j\\x16d\\r\\x19\\x00t\\x1d|!\\x83\\x01k\\x02\\x90\\x02rnt\\x1d|!\\x83\\x01d1k\\x04\\x90\\x02rn|\\x02d\\x1a\\x19\\x00d2k\\x02\\x90\\x01r\\xd1t!\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x1f| |\\x16d3\\x8d\\x06}\"n\\x91|\\x02d\\x1a\\x19\\x00d4k\\x02\\x90\\x01r\\xe6t\"\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x1f| d4|\\x16d5\\x8d\\x07}\"n||\\x02d\\x1a\\x19\\x00d6k\\x02\\x90\\x01r\\xfbt\"\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x1f| d6|\\x16d5\\x8d\\x07}\"ng|\\x02d\\x1a\\x19\\x00d\\x1ck\\x02\\x90\\x02r\\rt#\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x14| \\x83\\x05}\"nU|\\x02d\\x1a\\x19\\x00d\\x1dk\\x02\\x90\\x02r\\x1ft$\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x14| \\x83\\x05}\"nC|\\x02d\\x1a\\x19\\x00d\\x1ek\\x02\\x90\\x02r1t%\\x88\\x01|\\x03d \\x19\\x00|\\x1a|\\x14| \\x83\\x05}\"n1|\\x02d\\x1a\\x19\\x00d7k\\x02\\x90\\x02rHt&\\x88\\x01|\\x1f|\\x1b|\\x1dd8d9\\x8d\\x05}\\x14t\\'\\x88\\x01|\\x14| \\x83\\x03}\"n\\x1a|\\x02d\\x1a\\x19\\x00d:k\\x02\\x90\\x02r_t&\\x88\\x01|\\x1f|\\x1b|\\x1dd:d9\\x8d\\x05}\\x14t\\'\\x88\\x01|\\x14| \\x83\\x03}\"n\\x03t\\x15\\x83\\x00\\x82\\x01t(|!|\"\\x83\\x02}#|\\x19\\xa0)|#\\xa1\\x01\\x01\\x00\\x90\\x01q<t*d;t+|\\x1a\\x83\\x01\\x17\\x00d<\\x17\\x00t+|\\x02\\x83\\x01\\x17\\x00d=\\x17\\x00t+| j\\x16\\x83\\x01\\x17\\x00d>\\x17\\x00t+|!j\\x16\\x83\\x01\\x17\\x00\\x83\\x01\\x01\\x00\\x90\\x01q<d?t\\x17\\xa0,t\\x17\\xa0-|#\\xa1\\x01\\xa1\\x01\\x18\\x00S\\x00'"
+        },
+        "model": {
+            "name": "RandomForest",
+            "types": [
+                2,
+                0,
+                3,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                2,
+                0,
+                0
+            ],
+            "bounds": [
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    3,
+                    NaN
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    0,
+                    1.0
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    2,
+                    NaN
+                ],
+                [
+                    -1.0,
+                    1.0
+                ],
+                [
+                    -1.0,
+                    1.0
+                ]
+            ],
+            "pca_components": 7,
+            "n_trees": 10,
+            "n_points_per_tree": -1,
+            "ratio_features": 1.0,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_depth": 1048576,
+            "eps_purity": 1e-08,
+            "max_nodes": 1048576,
+            "bootstrapping": true
+        },
+        "acquisition_maximizer": {
+            "name": "LocalAndSortedRandomSearch",
+            "acquisition_function": {
+                "name": "EI",
+                "xi": 0.0,
+                "log": true
+            },
+            "challengers": 10000,
+            "seed": 0,
+            "random_search": {
+                "name": "RandomSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 0
+            },
+            "local_search": {
+                "name": "LocalSearch",
+                "acquisition_function": {
+                    "name": "EI",
+                    "xi": 0.0,
+                    "log": true
+                },
+                "challengers": 5000,
+                "seed": 0,
+                "max_steps": null,
+                "n_steps_plateau_walk": 10,
+                "vectorization_min_obtain": 2,
+                "vectorization_max_obtain": 64
+            }
+        },
+        "acquisition_function": {
+            "name": "EI",
+            "xi": 0.0,
+            "log": true
+        },
+        "intensifier": {
+            "name": "Intensifier",
+            "max_incumbents": 10,
+            "seed": 0
+        },
+        "initial_design": {
+            "name": "SobolInitialDesign",
+            "n_configs": 25,
+            "n_configs_per_hyperparameter": 10,
+            "additional_configs": [],
+            "seed": 0
+        },
+        "random_design": {
+            "name": "ProbabilityRandomDesign",
+            "seed": 0,
+            "probability": 0.2
+        },
+        "runhistory_encoder": {
+            "name": "RunHistoryLogScaledEncoder",
+            "considered_states": [
+                1,
+                2,
+                4
+            ],
+            "lower_budget_states": [],
+            "scale_percentage": 5,
+            "seed": 0
+        },
+        "multi_objective_algorithm": null,
+        "config_selector": {
+            "name": "ConfigSelector",
+            "retrain_after": 8,
+            "retries": 16,
+            "min_trials": 1
+        },
+        "version": "2.2.0"
+    },
+    "output_directory": "smac/mdgs2/RF/HPO_RF/0"
+}

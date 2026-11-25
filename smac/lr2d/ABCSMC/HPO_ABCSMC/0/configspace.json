@@ -1,0 +1,1 @@
+{"name": null, "hyperparameters": [{"type": "uniform_int", "name": "bl_abcsmc_num_populations", "lower": 1, "upper": 100, "default_value": 10, "log": false, "meta": null}], "conditions": [], "forbiddens": [], "python_module_version": "1.2.0", "format_version": 0.4}

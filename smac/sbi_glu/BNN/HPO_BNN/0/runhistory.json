@@ -1,0 +1,415 @@
+{
+  "stats": {
+    "submitted": 26,
+    "finished": 26,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.4447794424602254,
+      62.54132342338562,
+      1,
+      1742986035.1574612,
+      1742986097.7005763,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      42.823795318603516,
+      1,
+      1742986097.74068,
+      1742986140.5666583,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.4346906602068674,
+      14916.429356575012,
+      1,
+      1742986140.6291118,
+      1743001057.0604713,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      14206.769296884537,
+      1,
+      1743001057.118078,
+      1743015263.8892527,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.4346906602068674,
+      13716.65556383133,
+      1,
+      1743015263.95263,
+      1743028980.6100338,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.4346906602068674,
+      1907.9276518821716,
+      1,
+      1743028980.667856,
+      1743030888.5973716,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      1909.69420003891,
+      1,
+      1743030888.632538,
+      1743032798.3308399,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.4346906602068674,
+      1916.4623646736145,
+      1,
+      1743032798.3511078,
+      1743034714.8156168,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.5335533553355336,
+      12449.493068695068,
+      1,
+      1743034714.8490953,
+      1743047164.3452513,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.9753516409912927,
+      12343.836120843887,
+      1,
+      1743047164.3953514,
+      1743059508.2341955,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      0.9719663596315579,
+      12246.414836883545,
+      1,
+      1743059508.2707908,
+      1743071754.6875737,
+      {}
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      0.4346906602068674,
+      7018.967425584793,
+      1,
+      1743071754.736531,
+      1743078773.705782,
+      {}
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      6807.024204492569,
+      1,
+      1743078773.7646496,
+      1743085580.7912185,
+      {}
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      0.4346906602068674,
+      6847.7760598659515,
+      1,
+      1743085580.8722541,
+      1743092428.6501153,
+      {}
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      0.4346906602068674,
+      1228.692286491394,
+      1,
+      1743092428.673856,
+      1743093657.3685932,
+      {}
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      1240.8549768924713,
+      1,
+      1743093657.4129465,
+      1743094898.2697518,
+      {}
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      0.4346906602068674,
+      1211.9215013980865,
+      1,
+      1743094898.3206086,
+      1743096110.2500908,
+      {}
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      0.4346906602068674,
+      16364.092336654663,
+      1,
+      1743096110.3157206,
+      1743112474.4161115,
+      {}
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      0.4346906602068674,
+      16343.670235872269,
+      1,
+      1743112474.4841812,
+      1743128818.1604095,
+      {}
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      0.4346906602068674,
+      16351.70454788208,
+      1,
+      1743128818.236088,
+      1743145169.9426048,
+      {}
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1743145169.9986794,
+      1743145170.1111307,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 379, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 491, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1743145170.1440613,
+      1743145170.1798267,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 379, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 491, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1743145170.2330077,
+      1743145170.2793467,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 379, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 491, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      1.0,
+      6563.189375638962,
+      1,
+      1743145170.314714,
+      1743151733.5056422,
+      {}
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      1.0,
+      6420.719079256058,
+      1,
+      1743151733.5305026,
+      1743158154.2513611,
+      {}
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      0.999727965179543,
+      6448.7214159965515,
+      1,
+      1743158154.2885878,
+      1743164603.011747,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_bnn_kl_weight": 0.2673447640277,
+      "bl_bnn_learning_rate": 0.0620944130752,
+      "bl_bnn_num_features": 56,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": 7.2267966903746,
+      "bl_bnn_prior_sigma": 4.9552070802014
+    },
+    "2": {
+      "bl_bnn_kl_weight": 0.6412118618563,
+      "bl_bnn_learning_rate": 0.0108214653777,
+      "bl_bnn_num_features": 495,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -2.1609644778073,
+      "bl_bnn_prior_sigma": 8.8250144351624
+    },
+    "3": {
+      "bl_bnn_kl_weight": 0.7996811447125,
+      "bl_bnn_learning_rate": 0.0891351203931,
+      "bl_bnn_num_features": 206,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": -6.3522623851895,
+      "bl_bnn_prior_sigma": 5.687344183449
+    },
+    "4": {
+      "bl_bnn_kl_weight": 0.1752783013526,
+      "bl_bnn_learning_rate": 0.0381666618407,
+      "bl_bnn_num_features": 281,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": 1.7501448839903,
+      "bl_bnn_prior_sigma": 0.5728896277389
+    },
+    "5": {
+      "bl_bnn_kl_weight": 0.0283990705889,
+      "bl_bnn_learning_rate": 0.0822292601568,
+      "bl_bnn_num_features": 378,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": 3.77724904567,
+      "bl_bnn_prior_sigma": 3.4683306831555
+    },
+    "6": {
+      "bl_bnn_kl_weight": 0.9031855291966,
+      "bl_bnn_learning_rate": 0.0343708628683,
+      "bl_bnn_num_features": 80,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": -9.3312099575996,
+      "bl_bnn_prior_sigma": 7.8113079081638
+    },
+    "7": {
+      "bl_bnn_kl_weight": 0.5605835868157,
+      "bl_bnn_learning_rate": 0.0658594036299,
+      "bl_bnn_num_features": 352,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": -4.8115846328437,
+      "bl_bnn_prior_sigma": 7.1697954641596
+    },
+    "8": {
+      "bl_bnn_kl_weight": 0.4371602960601,
+      "bl_bnn_learning_rate": 0.0177201446683,
+      "bl_bnn_num_features": 168,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": 9.5896359346807,
+      "bl_bnn_prior_sigma": 1.5910213455779
+    },
+    "9": {
+      "bl_bnn_kl_weight": 0.4654935919195,
+      "bl_bnn_learning_rate": 0.0982650175579,
+      "bl_bnn_num_features": 340,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": -0.4559816047549,
+      "bl_bnn_prior_sigma": 0.7234118949644
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol",
+    "9": "Initial Design: Sobol"
+  }
+}

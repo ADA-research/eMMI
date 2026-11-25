@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "submitted": 2,
+    "finished": 2,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1744039625.8279226,
+      1744039625.9197187,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 377, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 395, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '11-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '11-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1744039625.9374905,
+      1744039626.0074456,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 377, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 395, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '11-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '11-th leading minor of the array is not positive definite')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 2
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol"
+  }
+}

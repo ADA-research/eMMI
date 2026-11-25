@@ -1,0 +1,211 @@
+{
+  "stats": {
+    "submitted": 11,
+    "finished": 11,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      1.0,
+      17967.975321531296,
+      1,
+      1738630922.186106,
+      1738648890.1644,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      1.0,
+      17900.20888018608,
+      1,
+      1738648890.209839,
+      1738666790.423067,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      1.0,
+      14899.008175134659,
+      1,
+      1738666790.4549773,
+      1738681689.467793,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      1.0,
+      14688.327577829361,
+      1,
+      1738681689.49286,
+      1738696377.825761,
+      {}
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      1.0,
+      18129.037786722183,
+      1,
+      1738696377.8555965,
+      1738714506.896498,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      1.0,
+      16782.62584257126,
+      1,
+      1738714506.9112308,
+      1738731289.540002,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      1.0,
+      16767.560187339783,
+      1,
+      1738731289.566175,
+      1738748057.1301615,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      1.0,
+      16905.068833112717,
+      1,
+      1738748057.1456506,
+      1738764962.2180047,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      1.0,
+      15762.891293764114,
+      1,
+      1738764962.24713,
+      1738780725.1417792,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      1.0,
+      15744.662949800491,
+      1,
+      1738780725.1746652,
+      1738796469.8432076,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      1.0,
+      15818.635897874832,
+      1,
+      1738796469.8832283,
+      1738812288.5256789,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "constraint_penalty_inf": "True",
+      "method_conv_budget_split_a": 0.6205646954477,
+      "method_conv_budget_split_b": 0.1075078817084,
+      "method_conv_budget_split_c": 0.2117762370035,
+      "method_conv_init_noise": 0.8613412211204,
+      "method_conv_k": 50,
+      "method_conv_learning_rate": 0.9599759148058,
+      "method_conv_optimiser_1": "GD",
+      "method_conv_optimiser_2a": "GD",
+      "method_conv_optimiser_2b": "GD",
+      "method_conv_optimiser_2c": "RS",
+      "method_conv_optimiser_2d": "GD",
+      "method_conv_population_size": 23
+    },
+    "2": {
+      "constraint_penalty_inf": "False",
+      "method_conv_budget_split_a": 0.2304282430559,
+      "method_conv_budget_split_b": 0.6275850171223,
+      "method_conv_budget_split_c": 0.5057428656146,
+      "method_conv_init_noise": 0.0418670642906,
+      "method_conv_k": 81,
+      "method_conv_learning_rate": 0.3576783854,
+      "method_conv_optimiser_1": "RS",
+      "method_conv_optimiser_2a": "HC",
+      "method_conv_optimiser_2b": "RS",
+      "method_conv_optimiser_2c": "GD",
+      "method_conv_optimiser_2d": "HC",
+      "method_conv_population_size": 85,
+      "method_conv_constraint_penalty": 8
+    },
+    "3": {
+      "constraint_penalty_inf": "False",
+      "method_conv_budget_split_a": 0.9217783343047,
+      "method_conv_budget_split_b": 0.2736045382917,
+      "method_conv_budget_split_c": 0.358433813788,
+      "method_conv_init_noise": 0.4245153267695,
+      "method_conv_k": 74,
+      "method_conv_learning_rate": 0.7164934632915,
+      "method_conv_optimiser_1": "CMAES",
+      "method_conv_optimiser_2a": "RS",
+      "method_conv_optimiser_2b": "RS",
+      "method_conv_optimiser_2c": "HC",
+      "method_conv_optimiser_2d": "RS",
+      "method_conv_population_size": 40,
+      "method_conv_constraint_penalty": 4
+    },
+    "4": {
+      "constraint_penalty_inf": "True",
+      "method_conv_budget_split_a": 0.3119145408273,
+      "method_conv_budget_split_b": 0.9888645336032,
+      "method_conv_budget_split_c": 0.9240262145177,
+      "method_conv_init_noise": 0.7289341795968,
+      "method_conv_k": 6,
+      "method_conv_learning_rate": 0.0985727664996,
+      "method_conv_optimiser_1": "HC",
+      "method_conv_optimiser_2a": "HC",
+      "method_conv_optimiser_2b": "GD",
+      "method_conv_optimiser_2c": "CMAES",
+      "method_conv_optimiser_2d": "GD",
+      "method_conv_population_size": 53
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol"
+  }
+}

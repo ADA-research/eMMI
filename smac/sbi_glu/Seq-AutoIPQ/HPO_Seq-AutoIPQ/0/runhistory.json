@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "submitted": 4,
+    "finished": 4,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      1.0,
+      30143.06827378273,
+      1,
+      1742986036.3419855,
+      1743016179.420449,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      1.0,
+      27400.89880180359,
+      1,
+      1743016179.4751198,
+      1743043580.389387,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      1.0,
+      86808.32316732407,
+      1,
+      1743043580.4473782,
+      1743130388.7915938,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      1.0,
+      76778.66691303253,
+      1,
+      1743130388.8430953,
+      1743207167.5220644,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "constraint_penalty_inf": "True",
+      "method_seq_budget_split_a": 0.6205646954477,
+      "method_seq_budget_split_b": 0.1075078817084,
+      "method_seq_budget_split_c": 0.2117762370035,
+      "method_seq_epsilon2": 0.8614784946842,
+      "method_seq_filter_density": "True",
+      "method_seq_init_noise": 0.9599759148058,
+      "method_seq_k": 100,
+      "method_seq_learning_rate": 0.7721376285684,
+      "method_seq_optimiser_1": "HC",
+      "method_seq_optimiser_2a": "HC",
+      "method_seq_optimiser_2b": "GD",
+      "method_seq_optimiser_2c": "CMAES",
+      "method_seq_optimiser_2d": "RS",
+      "method_seq_population_size": 94,
+      "method_seq_random_exploration_proportion": 0.7631335956976,
+      "method_seq_density_filter_percentile": 50,
+      "method_seq_density_filter_same_class": "True"
+    },
+    "2": {
+      "constraint_penalty_inf": "False",
+      "method_seq_budget_split_a": 0.1049213809893,
+      "method_seq_budget_split_b": 0.9926271988079,
+      "method_seq_budget_split_c": 0.8745677331463,
+      "method_seq_epsilon2": 0.1043785213204,
+      "method_seq_filter_density": "False",
+      "method_seq_init_noise": 0.2493074113325,
+      "method_seq_k": 2,
+      "method_seq_learning_rate": 0.1019360711653,
+      "method_seq_optimiser_1": "RS",
+      "method_seq_optimiser_2a": "GD",
+      "method_seq_optimiser_2b": "RS",
+      "method_seq_optimiser_2c": "HC",
+      "method_seq_optimiser_2d": "HC",
+      "method_seq_population_size": 33,
+      "method_seq_random_exploration_proportion": 0.4576568994671,
+      "method_seq_constraint_penalty": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol"
+  }
+}

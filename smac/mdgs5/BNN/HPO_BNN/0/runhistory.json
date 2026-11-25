@@ -1,0 +1,1573 @@
+{
+  "stats": {
+    "submitted": 100,
+    "finished": 100,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      0.3347722367374759,
+      42.06263613700867,
+      1,
+      1740041739.3248007,
+      1740041781.3891819,
+      {}
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      0.332799743877061,
+      19.19582462310791,
+      1,
+      1740041781.4349976,
+      1740041800.632596,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      2041.914584159851,
+      1,
+      1740041800.6501486,
+      1740043842.5683339,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      1898.4082880020142,
+      1,
+      1740043842.5889986,
+      1740045741.0002418,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      1826.8323752880096,
+      1,
+      1740045741.0116363,
+      1740047567.8459792,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      259.9493854045868,
+      1,
+      1740047567.8553493,
+      1740047827.8068385,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      323.5238015651703,
+      1,
+      1740047827.8138688,
+      1740048151.339427,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      350.2544710636139,
+      1,
+      1740048151.3468297,
+      1740048501.6030018,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.9279854147675478,
+      1963.14998793602,
+      1,
+      1740048501.6113348,
+      1740050464.7629876,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      1.0,
+      1731.6992666721344,
+      1,
+      1740050464.770875,
+      1740052196.4718254,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      0.5969742813918306,
+      1780.255910396576,
+      1,
+      1740052196.4795241,
+      1740053976.7371063,
+      {}
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      1193.9476408958435,
+      1,
+      1740053976.7459679,
+      1740055170.6953075,
+      {}
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      1254.634791135788,
+      1,
+      1740055170.703174,
+      1740056425.3396375,
+      {}
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      981.9972543716431,
+      1,
+      1740056425.3472342,
+      1740057407.3461876,
+      {}
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      178.7620153427124,
+      1,
+      1740057407.3551824,
+      1740057586.1188505,
+      {}
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      181.48892331123352,
+      1,
+      1740057586.1271026,
+      1740057767.6177442,
+      {}
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      191.75157618522644,
+      1,
+      1740057767.6256669,
+      1740057959.3789518,
+      {}
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      2389.178399324417,
+      1,
+      1740057959.3880637,
+      1740060348.5681734,
+      {}
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      2324.9539132118225,
+      1,
+      1740060348.576131,
+      1740062673.5317798,
+      {}
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      2584.377774477005,
+      1,
+      1740062673.5409064,
+      1740065257.9204366,
+      {}
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740065257.9333014,
+      1740065257.9515452,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740065257.9597192,
+      1740065257.9714742,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740065257.978736,
+      1740065257.987658,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (168) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      872.7840859889984,
+      1,
+      1740065257.996389,
+      1740066130.7819924,
+      {}
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      895.396642446518,
+      1,
+      1740066130.791943,
+      1740067026.1905847,
+      {}
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      874.2043037414551,
+      1,
+      1740067026.2007728,
+      1740067900.407143,
+      {}
+    ],
+    [
+      10,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      164.274338722229,
+      1,
+      1740067900.4166734,
+      1740068064.692764,
+      {}
+    ],
+    [
+      10,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      170.3232138156891,
+      1,
+      1740068064.7015345,
+      1740068235.026473,
+      {}
+    ],
+    [
+      10,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      159.51307010650635,
+      1,
+      1740068235.0353937,
+      1740068394.5501194,
+      {}
+    ],
+    [
+      11,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740068394.5603015,
+      1740068394.575124,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      11,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740068394.582324,
+      1740068394.5955596,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      11,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740068394.6032135,
+      1740068394.6160324,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (436) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      12,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      358.7923698425293,
+      1,
+      1740068394.6251059,
+      1740068753.418901,
+      {}
+    ],
+    [
+      12,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      405.1968080997467,
+      1,
+      1740068753.4276059,
+      1740069158.6261532,
+      {}
+    ],
+    [
+      12,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      386.05789375305176,
+      1,
+      1740069158.6355786,
+      1740069544.6951792,
+      {}
+    ],
+    [
+      13,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      1554.2029168605804,
+      1,
+      1740069544.705982,
+      1740071098.9106503,
+      {}
+    ],
+    [
+      13,
+      null,
+      398764591,
+      null,
+      0.33386735020826663,
+      1462.390746831894,
+      1,
+      1740071098.919819,
+      1740072561.3124204,
+      {}
+    ],
+    [
+      13,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      1082.335557937622,
+      1,
+      1740072561.3233562,
+      1740073643.6614058,
+      {}
+    ],
+    [
+      14,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      13.302450180053711,
+      1,
+      1740073643.6720212,
+      1740073656.9761164,
+      {}
+    ],
+    [
+      14,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      13.430146217346191,
+      1,
+      1740073656.985811,
+      1740073670.4175584,
+      {}
+    ],
+    [
+      14,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      15.03147554397583,
+      1,
+      1740073670.4271953,
+      1740073685.4602985,
+      {}
+    ],
+    [
+      15,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      18.963317155838013,
+      1,
+      1740073685.4715168,
+      1740073704.4364188,
+      {}
+    ],
+    [
+      15,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      18.544299125671387,
+      1,
+      1740073704.445171,
+      1740073722.9908707,
+      {}
+    ],
+    [
+      15,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      18.52659320831299,
+      1,
+      1740073723.000298,
+      1740073741.5285215,
+      {}
+    ],
+    [
+      16,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      13.55256724357605,
+      1,
+      1740073741.541867,
+      1740073755.096343,
+      {}
+    ],
+    [
+      16,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      13.592164516448975,
+      1,
+      1740073755.1060948,
+      1740073768.6997187,
+      {}
+    ],
+    [
+      16,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      13.577185153961182,
+      1,
+      1740073768.7090561,
+      1740073782.2876682,
+      {}
+    ],
+    [
+      17,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      69.14318919181824,
+      1,
+      1740073782.2985628,
+      1740073851.4432442,
+      {}
+    ],
+    [
+      17,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      66.17457604408264,
+      1,
+      1740073851.4529226,
+      1740073917.629213,
+      {}
+    ],
+    [
+      17,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      70.79813289642334,
+      1,
+      1740073917.639266,
+      1740073988.4392798,
+      {}
+    ],
+    [
+      18,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740073988.4535055,
+      1740073988.469369,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      18,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740073988.477846,
+      1740073988.4804065,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      18,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740073988.48946,
+      1740073988.4920096,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (314) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      19,
+      null,
+      209652396,
+      null,
+      1.0,
+      18.122894287109375,
+      1,
+      1740073988.5028534,
+      1740074006.6271725,
+      {}
+    ],
+    [
+      19,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      18.178878784179688,
+      1,
+      1740074006.637599,
+      1740074024.818124,
+      {}
+    ],
+    [
+      19,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      18.19680666923523,
+      1,
+      1740074024.8291478,
+      1740074043.0276148,
+      {}
+    ],
+    [
+      20,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      29.588412046432495,
+      1,
+      1740074043.0398858,
+      1740074072.6301064,
+      {}
+    ],
+    [
+      20,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      29.183244228363037,
+      1,
+      1740074072.6426501,
+      1740074101.8279343,
+      {}
+    ],
+    [
+      20,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      30.370485067367554,
+      1,
+      1740074101.8381712,
+      1740074132.210273,
+      {}
+    ],
+    [
+      21,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      14.400163173675537,
+      1,
+      1740074132.2229307,
+      1740074146.6246467,
+      {}
+    ],
+    [
+      21,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      13.590137481689453,
+      1,
+      1740074146.6343684,
+      1740074160.225899,
+      {}
+    ],
+    [
+      21,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      13.708627462387085,
+      1,
+      1740074160.2357078,
+      1740074173.945714,
+      {}
+    ],
+    [
+      22,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      35.281561851501465,
+      1,
+      1740074173.957839,
+      1740074209.240862,
+      {}
+    ],
+    [
+      22,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      34.840935707092285,
+      1,
+      1740074209.2513583,
+      1740074244.0939417,
+      {}
+    ],
+    [
+      22,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      35.3562126159668,
+      1,
+      1740074244.1049495,
+      1740074279.4628124,
+      {}
+    ],
+    [
+      23,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      14.149261713027954,
+      1,
+      1740074279.4758494,
+      1740074293.6267428,
+      {}
+    ],
+    [
+      23,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      14.111462593078613,
+      1,
+      1740074293.6378005,
+      1740074307.750873,
+      {}
+    ],
+    [
+      23,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      14.104304313659668,
+      1,
+      1740074307.762154,
+      1740074321.8680007,
+      {}
+    ],
+    [
+      24,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      19.219508171081543,
+      1,
+      1740074321.8802457,
+      1740074341.1011388,
+      {}
+    ],
+    [
+      24,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      18.75405240058899,
+      1,
+      1740074341.1116245,
+      1740074359.8670256,
+      {}
+    ],
+    [
+      24,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      18.77682375907898,
+      1,
+      1740074359.8773313,
+      1740074378.655587,
+      {}
+    ],
+    [
+      25,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      51.72817254066467,
+      1,
+      1740074378.668777,
+      1740074430.3985026,
+      {}
+    ],
+    [
+      25,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      50.74773550033569,
+      1,
+      1740074430.4093175,
+      1740074481.1586692,
+      {}
+    ],
+    [
+      25,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      53.92692232131958,
+      1,
+      1740074481.1692264,
+      1740074535.0977829,
+      {}
+    ],
+    [
+      26,
+      null,
+      209652396,
+      null,
+      0.44886109870477897,
+      19.72819972038269,
+      1,
+      1740074537.1167564,
+      1740074556.8464205,
+      {}
+    ],
+    [
+      26,
+      null,
+      398764591,
+      null,
+      0.4707631318136769,
+      19.919646739959717,
+      1,
+      1740074556.8567047,
+      1740074576.7777665,
+      {}
+    ],
+    [
+      26,
+      null,
+      924231285,
+      null,
+      0.2488228902571532,
+      20.667348623275757,
+      1,
+      1740074576.789429,
+      1740074597.4582736,
+      {}
+    ],
+    [
+      27,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      63.567747831344604,
+      1,
+      1740074597.4730635,
+      1740074661.0424771,
+      {}
+    ],
+    [
+      27,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      64.8543004989624,
+      1,
+      1740074661.053723,
+      1740074725.9097052,
+      {}
+    ],
+    [
+      27,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      63.240639209747314,
+      1,
+      1740074725.9213,
+      1740074789.1636555,
+      {}
+    ],
+    [
+      28,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.178622,
+      1740074789.183617,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      28,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.1947372,
+      1740074789.1971273,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      28,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.2083323,
+      1740074789.2107413,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (69) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      29,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.224311,
+      1740074789.22691,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      29,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.2382424,
+      1740074789.2405682,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      29,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740074789.2516384,
+      1740074789.253946,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (59) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      30,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      28.749125480651855,
+      1,
+      1740074789.2678347,
+      1740074818.0193079,
+      {}
+    ],
+    [
+      30,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      29.21007752418518,
+      1,
+      1740074818.0328023,
+      1740074847.2449014,
+      {}
+    ],
+    [
+      30,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      29.430142879486084,
+      1,
+      1740074847.2575526,
+      1740074876.6893356,
+      {}
+    ],
+    [
+      31,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      13.465374231338501,
+      1,
+      1740074876.705256,
+      1740074890.1721635,
+      {}
+    ],
+    [
+      31,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      13.366068840026855,
+      1,
+      1740074890.184647,
+      1740074903.5522099,
+      {}
+    ],
+    [
+      31,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      13.297260284423828,
+      1,
+      1740074903.5644703,
+      1740074916.8632915,
+      {}
+    ],
+    [
+      32,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      47.74104642868042,
+      1,
+      1740074916.8783414,
+      1740074964.620855,
+      {}
+    ],
+    [
+      32,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      47.46506953239441,
+      1,
+      1740074964.6336842,
+      1740075012.10036,
+      {}
+    ],
+    [
+      32,
+      null,
+      924231285,
+      null,
+      0.33333333333333337,
+      47.39422917366028,
+      1,
+      1740075012.1131005,
+      1740075059.5089042,
+      {}
+    ],
+    [
+      33,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740075059.5241587,
+      1740075059.5288358,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      33,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740075059.5400276,
+      1740075059.5424783,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      33,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1740075059.553276,
+      1740075059.5556893,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 321, in run_experiment_smac\n    model, training_time = train_BNN(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 371, in train_BNN\n    mse = mse_loss(pre, Y)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1736, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/module.py\", line 1747, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/modules/loss.py\", line 608, in forward\n    return F.mse_loss(input, target, reduction=self.reduction)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/nn/functional.py\", line 3791, in mse_loss\n    expanded_input, expanded_target = torch.broadcast_tensors(input, target)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/torch/functional.py\", line 76, in broadcast_tensors\n    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]\nRuntimeError: The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1\n",
+        "error": "RuntimeError('The size of tensor a (73) must match the size of tensor b (10) at non-singleton dimension 1')"
+      }
+    ],
+    [
+      34,
+      null,
+      209652396,
+      null,
+      0.33333333333333337,
+      26.994321584701538,
+      1,
+      1740075061.9553246,
+      1740075088.9511893,
+      {}
+    ],
+    [
+      34,
+      null,
+      398764591,
+      null,
+      0.33333333333333337,
+      26.863837003707886,
+      1,
+      1740075088.9638724,
+      1740075115.829609,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_bnn_kl_weight": 0.2673447640277,
+      "bl_bnn_learning_rate": 0.0620944130752,
+      "bl_bnn_num_features": 56,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": 7.2267966903746,
+      "bl_bnn_prior_sigma": 4.9552070802014
+    },
+    "2": {
+      "bl_bnn_kl_weight": 0.6412118618563,
+      "bl_bnn_learning_rate": 0.0108214653777,
+      "bl_bnn_num_features": 495,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -2.1609644778073,
+      "bl_bnn_prior_sigma": 8.8250144351624
+    },
+    "3": {
+      "bl_bnn_kl_weight": 0.7996811447125,
+      "bl_bnn_learning_rate": 0.0891351203931,
+      "bl_bnn_num_features": 206,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": -6.3522623851895,
+      "bl_bnn_prior_sigma": 5.687344183449
+    },
+    "4": {
+      "bl_bnn_kl_weight": 0.1752783013526,
+      "bl_bnn_learning_rate": 0.0381666618407,
+      "bl_bnn_num_features": 281,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": 1.7501448839903,
+      "bl_bnn_prior_sigma": 0.5728896277389
+    },
+    "5": {
+      "bl_bnn_kl_weight": 0.0283990705889,
+      "bl_bnn_learning_rate": 0.0822292601568,
+      "bl_bnn_num_features": 378,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": 3.77724904567,
+      "bl_bnn_prior_sigma": 3.4683306831555
+    },
+    "6": {
+      "bl_bnn_kl_weight": 0.9031855291966,
+      "bl_bnn_learning_rate": 0.0343708628683,
+      "bl_bnn_num_features": 80,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": -9.3312099575996,
+      "bl_bnn_prior_sigma": 7.8113079081638
+    },
+    "7": {
+      "bl_bnn_kl_weight": 0.5605835868157,
+      "bl_bnn_learning_rate": 0.0658594036299,
+      "bl_bnn_num_features": 352,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": -4.8115846328437,
+      "bl_bnn_prior_sigma": 7.1697954641596
+    },
+    "8": {
+      "bl_bnn_kl_weight": 0.4371602960601,
+      "bl_bnn_learning_rate": 0.0177201446683,
+      "bl_bnn_num_features": 168,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": 9.5896359346807,
+      "bl_bnn_prior_sigma": 1.5910213455779
+    },
+    "9": {
+      "bl_bnn_kl_weight": 0.4654935919195,
+      "bl_bnn_learning_rate": 0.0982650175579,
+      "bl_bnn_num_features": 340,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": -0.4559816047549,
+      "bl_bnn_prior_sigma": 0.7234118949644
+    },
+    "10": {
+      "bl_bnn_kl_weight": 0.5908390950374,
+      "bl_bnn_learning_rate": 0.0493334761104,
+      "bl_bnn_num_features": 148,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": 5.2343380451202,
+      "bl_bnn_prior_sigma": 5.5355976304363
+    },
+    "11": {
+      "bl_bnn_kl_weight": 0.9977120167036,
+      "bl_bnn_learning_rate": 0.0506246221045,
+      "bl_bnn_num_features": 436,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": 0.632928032428,
+      "bl_bnn_prior_sigma": 9.9130344985
+    },
+    "12": {
+      "bl_bnn_kl_weight": 0.1247799570616,
+      "bl_bnn_learning_rate": 0.001997569802,
+      "bl_bnn_num_features": 114,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": -6.1865837313235,
+      "bl_bnn_prior_sigma": 3.8659675366531
+    },
+    "13": {
+      "bl_bnn_kl_weight": 0.2054710524399,
+      "bl_bnn_learning_rate": 0.0715717522928,
+      "bl_bnn_num_features": 234,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -8.2079020701349,
+      "bl_bnn_prior_sigma": 2.0545006310595
+    },
+    "14": {
+      "bl_bnn_kl_weight": 0.8278374714013,
+      "bl_bnn_learning_rate": 0.0198110112543,
+      "bl_bnn_num_features": 286,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": 3.6054794304073,
+      "bl_bnn_prior_sigma": 6.7050966612147
+    },
+    "15": {
+      "bl_bnn_kl_weight": 0.7377811387032,
+      "bl_bnn_learning_rate": 0.0804207915059,
+      "bl_bnn_num_features": 14,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": 7.8712330386043,
+      "bl_bnn_prior_sigma": 8.5872864714337
+    },
+    "16": {
+      "bl_bnn_kl_weight": 0.3619302016012,
+      "bl_bnn_learning_rate": 0.0283791887944,
+      "bl_bnn_num_features": 444,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": -2.8057060390711,
+      "bl_bnn_prior_sigma": 2.691127871351
+    },
+    "17": {
+      "bl_bnn_kl_weight": 0.3215832597222,
+      "bl_bnn_learning_rate": 0.0763587968038,
+      "bl_bnn_num_features": 139,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": 2.0104377903044,
+      "bl_bnn_prior_sigma": 6.4002525549199
+    },
+    "18": {
+      "bl_bnn_kl_weight": 0.6961552488077,
+      "bl_bnn_learning_rate": 0.0277317445014,
+      "bl_bnn_num_features": 314,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": -7.3883120901883,
+      "bl_bnn_prior_sigma": 2.3795135181107
+    },
+    "19": {
+      "bl_bnn_kl_weight": 0.8536421427093,
+      "bl_bnn_learning_rate": 0.0725370236337,
+      "bl_bnn_num_features": 104,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": -1.5979372337461,
+      "bl_bnn_prior_sigma": 2.9923395206536
+    },
+    "20": {
+      "bl_bnn_kl_weight": 0.2304840729833,
+      "bl_bnn_learning_rate": 0.0236054821862,
+      "bl_bnn_num_features": 411,
+      "bl_bnn_num_hidden_layers": 3,
+      "bl_bnn_prior_mu": 6.513012573123,
+      "bl_bnn_prior_sigma": 8.2684069527543
+    },
+    "21": {
+      "bl_bnn_kl_weight": 0.0689603793882,
+      "bl_bnn_learning_rate": 0.0561987764983,
+      "bl_bnn_num_features": 307,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": 9.170612283051,
+      "bl_bnn_prior_sigma": 5.2264830803128
+    },
+    "22": {
+      "bl_bnn_kl_weight": 0.9406130076945,
+      "bl_bnn_learning_rate": 0.0041571737868,
+      "bl_bnn_num_features": 240,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -3.9293041825294,
+      "bl_bnn_prior_sigma": 1.0539207595913
+    },
+    "23": {
+      "bl_bnn_kl_weight": 0.6009274744894,
+      "bl_bnn_learning_rate": 0.0957875865252,
+      "bl_bnn_num_features": 466,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": -9.4279679469764,
+      "bl_bnn_prior_sigma": 4.161684474966
+    },
+    "24": {
+      "bl_bnn_kl_weight": 0.4747898521591,
+      "bl_bnn_learning_rate": 0.0440268454867,
+      "bl_bnn_num_features": 19,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": 4.9622639082372,
+      "bl_bnn_prior_sigma": 9.5984243060735
+    },
+    "25": {
+      "bl_bnn_kl_weight": 0.3803658580575,
+      "bl_bnn_learning_rate": 0.0649680624804,
+      "bl_bnn_num_features": 469,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -5.0723649188876,
+      "bl_bnn_prior_sigma": 8.1064323449798
+    },
+    "26": {
+      "bl_bnn_kl_weight": 0.6488173098924,
+      "bl_bnn_learning_rate": 0.0911985727586,
+      "bl_bnn_num_features": 76,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": 5.2279848145604,
+      "bl_bnn_prior_sigma": 4.8866008421751
+    },
+    "27": {
+      "bl_bnn_kl_weight": 0.2658857808669,
+      "bl_bnn_learning_rate": 0.099034962504,
+      "bl_bnn_num_features": 148,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": -9.6847289664945,
+      "bl_bnn_prior_sigma": 9.9092087081044
+    },
+    "28": {
+      "bl_bnn_kl_weight": 0.5297944954615,
+      "bl_bnn_learning_rate": 0.0793079372262,
+      "bl_bnn_num_features": 69,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": -0.1536046542729,
+      "bl_bnn_prior_sigma": 1.6245582354497
+    },
+    "29": {
+      "bl_bnn_kl_weight": 0.0238440591473,
+      "bl_bnn_learning_rate": 0.0020720501549,
+      "bl_bnn_num_features": 59,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": -8.250607125012,
+      "bl_bnn_prior_sigma": 3.8659675366531
+    },
+    "30": {
+      "bl_bnn_kl_weight": 0.3703566720348,
+      "bl_bnn_learning_rate": 0.072026741756,
+      "bl_bnn_num_features": 93,
+      "bl_bnn_num_hidden_layers": 5,
+      "bl_bnn_prior_mu": 1.7745098211757,
+      "bl_bnn_prior_sigma": 6.7267123977643
+    },
+    "31": {
+      "bl_bnn_kl_weight": 0.4778214298593,
+      "bl_bnn_learning_rate": 0.0619031996498,
+      "bl_bnn_num_features": 277,
+      "bl_bnn_num_hidden_layers": 2,
+      "bl_bnn_prior_mu": -4.8115846328437,
+      "bl_bnn_prior_sigma": 7.0528071534028
+    },
+    "32": {
+      "bl_bnn_kl_weight": 0.2600824250654,
+      "bl_bnn_learning_rate": 0.0331389274689,
+      "bl_bnn_num_features": 428,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -0.4011315348972,
+      "bl_bnn_prior_sigma": 3.4026588598616
+    },
+    "33": {
+      "bl_bnn_kl_weight": 0.6738210327341,
+      "bl_bnn_learning_rate": 0.0493334761104,
+      "bl_bnn_num_features": 73,
+      "bl_bnn_num_hidden_layers": 1,
+      "bl_bnn_prior_mu": 5.2343380451202,
+      "bl_bnn_prior_sigma": 5.9481804653348
+    },
+    "34": {
+      "bl_bnn_kl_weight": 0.2503003796345,
+      "bl_bnn_learning_rate": 0.099441362029,
+      "bl_bnn_num_features": 127,
+      "bl_bnn_num_hidden_layers": 4,
+      "bl_bnn_prior_mu": -9.6043037548863,
+      "bl_bnn_prior_sigma": 9.4937822085008
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol",
+    "9": "Initial Design: Sobol",
+    "10": "Initial Design: Sobol",
+    "11": "Initial Design: Sobol",
+    "12": "Initial Design: Sobol",
+    "13": "Initial Design: Sobol",
+    "14": "Initial Design: Sobol",
+    "15": "Initial Design: Sobol",
+    "16": "Initial Design: Sobol",
+    "17": "Initial Design: Sobol",
+    "18": "Initial Design: Sobol",
+    "19": "Initial Design: Sobol",
+    "20": "Initial Design: Sobol",
+    "21": "Initial Design: Sobol",
+    "22": "Initial Design: Sobol",
+    "23": "Initial Design: Sobol",
+    "24": "Initial Design: Sobol",
+    "25": "Initial Design: Sobol",
+    "26": "Acquisition Function Maximizer: Local Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Acquisition Function Maximizer: Local Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Local Search",
+    "34": "Acquisition Function Maximizer: Local Search"
+  }
+}

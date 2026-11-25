@@ -1,0 +1,21 @@
+{
+    "default_params": {
+        "w1": 1,
+        "w2": 1,
+        "w3": 1,
+        "w4": 1,
+        "w5": 1,
+        "b": 0
+    },
+
+    "default_param_ranges": {
+        "w1":["uniform", "float", -10.0, 10.0],
+        "w2":["uniform", "float", -10.0, 10.0],
+        "w3":["uniform", "float", -10.0, 10.0],
+        "w4":["uniform", "float", -10.0, 10.0],
+        "w5":["uniform", "float", -10.0, 10.0],
+        "b":["uniform", "float", -100.0, 100.0]
+    },
+
+    "output_dim": 100
+}

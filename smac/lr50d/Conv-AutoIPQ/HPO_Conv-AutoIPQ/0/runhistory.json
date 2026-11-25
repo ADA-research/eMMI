@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "submitted": 2,
+    "finished": 2,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.081071,
+      1745422399.4027226,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 437, in run_experiment_smac\n    preds = run_ConvAutoIPQ(p, data[\"val\"], i, sim, test_X, wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 51, in run_ConvAutoIPQ\n    l_ch = auto.run(p[\"exp_epsilon\"], None, **method_kwargs)\n  File \"/home/arp/AutoIPQ/src/AutoIPQ.py\", line 394, in run\n    convex_hull = Delaunay(self.solution_matrix)\n  File \"_qhull.pyx\", line 1885, in scipy.spatial._qhull.Delaunay.__init__\n  File \"_qhull.pyx\", line 352, in scipy.spatial._qhull._Qhull.__init__\nscipy.spatial._qhull.QhullError: QH6214 qhull input error: not enough points(23) to construct initial simplex (need 53)\n\nWhile executing:  | qhull d Qbb Qc Qz Qt Qx Q12\nOptions selected for Qhull 2019.1.r 2019/06/21:\n  run-id 687641973  delaunay  Qbbound-last  Qcoplanar-keep  Qz-infinity-point\n  Qtriangulate  Qxact-merge  Q12-allow-wide  _zero-centrum  Qinterior-keep\n  Q3-no-merge-vertices-dim-high  _maxoutside  0\n\n",
+        "error": "QhullError('QH6214 qhull input error: not enough points(23) to construct initial simplex (need 53)\\n\\nWhile executing:  | qhull d Qbb Qc Qz Qt Qx Q12\\nOptions selected for Qhull 2019.1.r 2019/06/21:\\n  run-id 687641973  delaunay  Qbbound-last  Qcoplanar-keep  Qz-infinity-point\\n  Qtriangulate  Qxact-merge  Q12-allow-wide  _zero-centrum  Qinterior-keep\\n  Q3-no-merge-vertices-dim-high  _maxoutside  0\\n')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.4108548,
+      1745422404.0466635,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 437, in run_experiment_smac\n    preds = run_ConvAutoIPQ(p, data[\"val\"], i, sim, test_X, wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 51, in run_ConvAutoIPQ\n    l_ch = auto.run(p[\"exp_epsilon\"], None, **method_kwargs)\n  File \"/home/arp/AutoIPQ/src/AutoIPQ.py\", line 394, in run\n    convex_hull = Delaunay(self.solution_matrix)\n  File \"_qhull.pyx\", line 1885, in scipy.spatial._qhull.Delaunay.__init__\n  File \"_qhull.pyx\", line 352, in scipy.spatial._qhull._Qhull.__init__\nscipy.spatial._qhull.QhullError: QH6214 qhull input error: not enough points(23) to construct initial simplex (need 53)\n\nWhile executing:  | qhull d Qbb Qc Qz Qt Qx Q12\nOptions selected for Qhull 2019.1.r 2019/06/21:\n  run-id 687726008  delaunay  Qbbound-last  Qcoplanar-keep  Qz-infinity-point\n  Qtriangulate  Qxact-merge  Q12-allow-wide  _zero-centrum  Qinterior-keep\n  Q3-no-merge-vertices-dim-high  _maxoutside  0\n\n",
+        "error": "QhullError('QH6214 qhull input error: not enough points(23) to construct initial simplex (need 53)\\n\\nWhile executing:  | qhull d Qbb Qc Qz Qt Qx Q12\\nOptions selected for Qhull 2019.1.r 2019/06/21:\\n  run-id 687726008  delaunay  Qbbound-last  Qcoplanar-keep  Qz-infinity-point\\n  Qtriangulate  Qxact-merge  Q12-allow-wide  _zero-centrum  Qinterior-keep\\n  Q3-no-merge-vertices-dim-high  _maxoutside  0\\n')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "constraint_penalty_inf": "True",
+      "method_conv_budget_split_a": 0.6205646954477,
+      "method_conv_budget_split_b": 0.1075078817084,
+      "method_conv_budget_split_c": 0.2117762370035,
+      "method_conv_init_noise": 0.8613412211204,
+      "method_conv_k": 50,
+      "method_conv_learning_rate": 0.9599759148058,
+      "method_conv_optimiser_1": "GD",
+      "method_conv_optimiser_2a": "GD",
+      "method_conv_optimiser_2b": "GD",
+      "method_conv_optimiser_2c": "RS",
+      "method_conv_optimiser_2d": "GD",
+      "method_conv_population_size": 23
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol"
+  }
+}

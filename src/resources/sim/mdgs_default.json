@@ -1,0 +1,13 @@
+{
+    "default_params": {
+        "mu": 0,
+        "sigma": 1
+    },
+
+    "default_param_ranges": {
+        "mu":["uniform", "float", -100.0, 100.0],
+        "sigma":["uniform", "float", 0.0001, 50.0]
+    },
+
+    "output_dim": 2
+}

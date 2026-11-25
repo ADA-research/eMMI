@@ -1,0 +1,1499 @@
+{
+  "stats": {
+    "submitted": 100,
+    "finished": 100,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.5006518,
+      1745422394.5750942,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.5798783,
+      1745422394.6005478,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      0.9862253916011459,
+      17.824101209640503,
+      1,
+      1745422394.6077793,
+      1745422412.4362574,
+      {}
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      0.9946028825513646,
+      18.788988828659058,
+      1,
+      1745422412.49198,
+      1745422431.2828968,
+      {}
+    ],
+    [
+      2,
+      null,
+      924231285,
+      null,
+      0.9946028825513646,
+      16.742493629455566,
+      1,
+      1745422431.322092,
+      1745422448.0665834,
+      {}
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      1.0,
+      8.766627788543701,
+      1,
+      1745422448.081635,
+      1745422456.8498538,
+      {}
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      1.0,
+      8.546664953231812,
+      1,
+      1745422456.8575964,
+      1745422465.4056098,
+      {}
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      1.0,
+      8.936774730682373,
+      1,
+      1745422465.4144382,
+      1745422474.3526416,
+      {}
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      0.02907986111111116,
+      6.60146689414978,
+      1,
+      1745422474.363075,
+      1745422480.9660916,
+      {}
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      0.02907986111111116,
+      6.68446683883667,
+      1,
+      1745422480.9805667,
+      1745422487.6664472,
+      {}
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      0.02907986111111116,
+      6.6088526248931885,
+      1,
+      1745422487.6724951,
+      1745422494.2827706,
+      {}
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      1.0,
+      13.358569622039795,
+      1,
+      1745422494.292571,
+      1745422507.6525295,
+      {}
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      1.0,
+      13.735466003417969,
+      1,
+      1745422507.665067,
+      1745422521.4019146,
+      {}
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      1.0,
+      12.276124954223633,
+      1,
+      1745422521.4103022,
+      1745422533.6879294,
+      {}
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      0.02907986111111116,
+      7.145013809204102,
+      1,
+      1745422533.6999588,
+      1745422540.8465319,
+      {}
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      0.02907986111111116,
+      7.209395170211792,
+      1,
+      1745422540.8565588,
+      1745422548.067309,
+      {}
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      0.02907986111111116,
+      6.8853819370269775,
+      1,
+      1745422548.0816247,
+      1745422554.9684956,
+      {}
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      0.9804448790026888,
+      13.087970972061157,
+      1,
+      1745422554.9773376,
+      1745422568.0670252,
+      {}
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      0.9804448790026888,
+      13.702274799346924,
+      1,
+      1745422568.0811024,
+      1745422581.784786,
+      {}
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      0.9804448790026888,
+      11.536471366882324,
+      1,
+      1745422581.7916028,
+      1745422593.3295646,
+      {}
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      0.2771626297577855,
+      11.091856956481934,
+      1,
+      1745422593.347148,
+      1745422604.440463,
+      {}
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      0.2771626297577855,
+      10.756056308746338,
+      1,
+      1745422604.4492362,
+      1745422615.2066786,
+      {}
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      0.2771626297577855,
+      10.9829683303833,
+      1,
+      1745422615.215459,
+      1745422626.1999304,
+      {}
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      1.0,
+      11.175112009048462,
+      1,
+      1745422626.211891,
+      1745422637.3888009,
+      {}
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      1.0,
+      11.967738151550293,
+      1,
+      1745422637.3974512,
+      1745422649.3665764,
+      {}
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      1.0,
+      12.12854814529419,
+      1,
+      1745422649.379181,
+      1745422661.509266,
+      {}
+    ],
+    [
+      10,
+      null,
+      209652396,
+      null,
+      0.22635175352967785,
+      15.729893445968628,
+      1,
+      1745422661.530155,
+      1745422677.261545,
+      {}
+    ],
+    [
+      10,
+      null,
+      398764591,
+      null,
+      0.22635175352967785,
+      13.94246506690979,
+      1,
+      1745422677.2691615,
+      1745422691.2132597,
+      {}
+    ],
+    [
+      10,
+      null,
+      924231285,
+      null,
+      0.22635175352967785,
+      14.946534633636475,
+      1,
+      1745422691.2340589,
+      1745422706.1822112,
+      {}
+    ],
+    [
+      11,
+      null,
+      209652396,
+      null,
+      1.0,
+      6.184754848480225,
+      1,
+      1745422706.1982903,
+      1745422712.3846326,
+      {}
+    ],
+    [
+      11,
+      null,
+      398764591,
+      null,
+      1.0,
+      6.213085889816284,
+      1,
+      1745422712.3950732,
+      1745422718.6095836,
+      {}
+    ],
+    [
+      11,
+      null,
+      924231285,
+      null,
+      1.0,
+      6.295759439468384,
+      1,
+      1745422718.6275558,
+      1745422724.9248219,
+      {}
+    ],
+    [
+      12,
+      null,
+      209652396,
+      null,
+      1.0,
+      8.472184181213379,
+      1,
+      1745422724.9362693,
+      1745422733.4100947,
+      {}
+    ],
+    [
+      12,
+      null,
+      398764591,
+      null,
+      1.0,
+      8.517858505249023,
+      1,
+      1745422733.4237921,
+      1745422741.943173,
+      {}
+    ],
+    [
+      12,
+      null,
+      924231285,
+      null,
+      1.0,
+      8.350795030593872,
+      1,
+      1745422741.9506378,
+      1745422750.3028014,
+      {}
+    ],
+    [
+      13,
+      null,
+      209652396,
+      null,
+      1.0,
+      6.046910524368286,
+      1,
+      1745422750.320349,
+      1745422756.3688045,
+      {}
+    ],
+    [
+      13,
+      null,
+      398764591,
+      null,
+      1.0,
+      6.06906533241272,
+      1,
+      1745422756.3782847,
+      1745422762.4488742,
+      {}
+    ],
+    [
+      13,
+      null,
+      924231285,
+      null,
+      1.0,
+      6.191650867462158,
+      1,
+      1745422762.4603941,
+      1745422768.6534655,
+      {}
+    ],
+    [
+      14,
+      null,
+      209652396,
+      null,
+      0.2771626297577855,
+      7.049068927764893,
+      1,
+      1745422768.6656961,
+      1745422775.7161112,
+      {}
+    ],
+    [
+      14,
+      null,
+      398764591,
+      null,
+      0.2771626297577855,
+      7.000085830688477,
+      1,
+      1745422775.7293918,
+      1745422782.7308075,
+      {}
+    ],
+    [
+      14,
+      null,
+      924231285,
+      null,
+      0.2771626297577855,
+      6.849169969558716,
+      1,
+      1745422782.745018,
+      1745422789.595532,
+      {}
+    ],
+    [
+      15,
+      null,
+      209652396,
+      null,
+      1.0,
+      11.183733463287354,
+      1,
+      1745422789.6088178,
+      1745422800.793928,
+      {}
+    ],
+    [
+      15,
+      null,
+      398764591,
+      null,
+      1.0,
+      10.686816930770874,
+      1,
+      1745422800.806502,
+      1745422811.494884,
+      {}
+    ],
+    [
+      15,
+      null,
+      924231285,
+      null,
+      1.0,
+      10.578209161758423,
+      1,
+      1745422811.5025432,
+      1745422822.0821717,
+      {}
+    ],
+    [
+      16,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.0959866,
+      1745422822.1140738,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      16,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.124897,
+      1745422822.147086,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      16,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.1603098,
+      1745422822.1801178,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      17,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.194897,
+      1745422822.2247937,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      17,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.2322502,
+      1745422822.2600565,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      17,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422822.2738678,
+      1745422822.3002334,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      18,
+      null,
+      209652396,
+      null,
+      0.9845946466397073,
+      14.735958337783813,
+      1,
+      1745422822.3135324,
+      1745422837.0508146,
+      {}
+    ],
+    [
+      18,
+      null,
+      398764591,
+      null,
+      0.9987328740001584,
+      8.716041564941406,
+      1,
+      1745422837.0686204,
+      1745422845.7861428,
+      {}
+    ],
+    [
+      18,
+      null,
+      924231285,
+      null,
+      0.9987328740001584,
+      8.723396301269531,
+      1,
+      1745422845.7989814,
+      1745422854.5238173,
+      {}
+    ],
+    [
+      19,
+      null,
+      209652396,
+      null,
+      1.0,
+      9.039068460464478,
+      1,
+      1745422854.5436826,
+      1745422863.5843208,
+      {}
+    ],
+    [
+      19,
+      null,
+      398764591,
+      null,
+      1.0,
+      9.970730066299438,
+      1,
+      1745422863.6020093,
+      1745422873.5741582,
+      {}
+    ],
+    [
+      19,
+      null,
+      924231285,
+      null,
+      1.0,
+      9.745883703231812,
+      1,
+      1745422873.5935583,
+      1745422883.3408346,
+      {}
+    ],
+    [
+      20,
+      null,
+      209652396,
+      null,
+      0.02907986111111116,
+      6.649388790130615,
+      1,
+      1745422883.3638055,
+      1745422890.0146892,
+      {}
+    ],
+    [
+      20,
+      null,
+      398764591,
+      null,
+      0.02907986111111116,
+      6.656442165374756,
+      1,
+      1745422890.0226443,
+      1745422896.6804063,
+      {}
+    ],
+    [
+      20,
+      null,
+      924231285,
+      null,
+      0.02907986111111116,
+      6.662042856216431,
+      1,
+      1745422896.6939833,
+      1745422903.3573678,
+      {}
+    ],
+    [
+      21,
+      null,
+      209652396,
+      null,
+      1.0,
+      10.806034326553345,
+      1,
+      1745422903.370974,
+      1745422914.1784089,
+      {}
+    ],
+    [
+      21,
+      null,
+      398764591,
+      null,
+      1.0,
+      10.322372674942017,
+      1,
+      1745422914.1953962,
+      1745422924.5193236,
+      {}
+    ],
+    [
+      21,
+      null,
+      924231285,
+      null,
+      1.0,
+      9.128376722335815,
+      1,
+      1745422924.5304317,
+      1745422933.6601682,
+      {}
+    ],
+    [
+      22,
+      null,
+      209652396,
+      null,
+      0.3442443561624283,
+      7.6406779289245605,
+      1,
+      1745422933.6787868,
+      1745422941.3208778,
+      {}
+    ],
+    [
+      22,
+      null,
+      398764591,
+      null,
+      0.3442443561624283,
+      7.4404191970825195,
+      1,
+      1745422941.3365169,
+      1745422948.7782843,
+      {}
+    ],
+    [
+      22,
+      null,
+      924231285,
+      null,
+      0.3442443561624283,
+      7.593944072723389,
+      1,
+      1745422948.7925692,
+      1745422956.3878922,
+      {}
+    ],
+    [
+      23,
+      null,
+      209652396,
+      null,
+      0.9804448790026888,
+      8.775285720825195,
+      1,
+      1745422956.41179,
+      1745422965.1885715,
+      {}
+    ],
+    [
+      23,
+      null,
+      398764591,
+      null,
+      0.9804448790026888,
+      9.945019245147705,
+      1,
+      1745422965.2027407,
+      1745422975.149087,
+      {}
+    ],
+    [
+      23,
+      null,
+      924231285,
+      null,
+      0.9804448790026888,
+      8.823042631149292,
+      1,
+      1745422975.1669703,
+      1745422983.9914312,
+      {}
+    ],
+    [
+      24,
+      null,
+      209652396,
+      null,
+      0.22635175352967785,
+      13.967616081237793,
+      1,
+      1745422984.002405,
+      1745422997.971581,
+      {}
+    ],
+    [
+      24,
+      null,
+      398764591,
+      null,
+      0.22635175352967785,
+      13.424514293670654,
+      1,
+      1745422997.9857275,
+      1745423011.411586,
+      {}
+    ],
+    [
+      24,
+      null,
+      924231285,
+      null,
+      0.22635175352967785,
+      12.984094381332397,
+      1,
+      1745423011.427736,
+      1745423024.4133048,
+      {}
+    ],
+    [
+      25,
+      null,
+      209652396,
+      null,
+      1.0,
+      12.875445127487183,
+      1,
+      1745423024.4279346,
+      1745423037.304859,
+      {}
+    ],
+    [
+      25,
+      null,
+      398764591,
+      null,
+      1.0,
+      13.958411455154419,
+      1,
+      1745423037.3216136,
+      1745423051.281369,
+      {}
+    ],
+    [
+      25,
+      null,
+      924231285,
+      null,
+      1.0,
+      13.590702533721924,
+      1,
+      1745423051.2981093,
+      1745423064.8903012,
+      {}
+    ],
+    [
+      26,
+      null,
+      209652396,
+      null,
+      1.0,
+      8.551999807357788,
+      1,
+      1745423066.570314,
+      1745423075.123709,
+      {}
+    ],
+    [
+      26,
+      null,
+      398764591,
+      null,
+      1.0,
+      9.085824966430664,
+      1,
+      1745423075.1365933,
+      1745423084.223963,
+      {}
+    ],
+    [
+      26,
+      null,
+      924231285,
+      null,
+      1.0,
+      8.59999704360962,
+      1,
+      1745423084.2392437,
+      1745423092.840603,
+      {}
+    ],
+    [
+      27,
+      null,
+      209652396,
+      null,
+      0.02907986111111116,
+      6.593867778778076,
+      1,
+      1745423092.854427,
+      1745423099.4496558,
+      {}
+    ],
+    [
+      27,
+      null,
+      398764591,
+      null,
+      0.02907986111111116,
+      6.629389047622681,
+      1,
+      1745423099.4591568,
+      1745423106.0900261,
+      {}
+    ],
+    [
+      27,
+      null,
+      924231285,
+      null,
+      0.02907986111111116,
+      6.555063247680664,
+      1,
+      1745423106.1030734,
+      1745423112.6620896,
+      {}
+    ],
+    [
+      28,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423112.6838949,
+      1745423112.7241771,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      28,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423112.7381089,
+      1745423112.7539842,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      28,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423112.780119,
+      1745423112.789738,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      29,
+      null,
+      209652396,
+      null,
+      1.0,
+      6.343528747558594,
+      1,
+      1745423112.817335,
+      1745423119.1621299,
+      {}
+    ],
+    [
+      29,
+      null,
+      398764591,
+      null,
+      1.0,
+      6.25163459777832,
+      1,
+      1745423119.1773388,
+      1745423125.4303336,
+      {}
+    ],
+    [
+      29,
+      null,
+      924231285,
+      null,
+      1.0,
+      6.4027934074401855,
+      1,
+      1745423125.4479904,
+      1745423131.8521347,
+      {}
+    ],
+    [
+      30,
+      null,
+      209652396,
+      null,
+      1.0,
+      9.532577991485596,
+      1,
+      1745423131.8699875,
+      1745423141.4039063,
+      {}
+    ],
+    [
+      30,
+      null,
+      398764591,
+      null,
+      1.0,
+      9.199508905410767,
+      1,
+      1745423141.4209325,
+      1745423150.6218708,
+      {}
+    ],
+    [
+      30,
+      null,
+      924231285,
+      null,
+      1.0,
+      9.339498281478882,
+      1,
+      1745423150.6518114,
+      1745423159.992919,
+      {}
+    ],
+    [
+      31,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423160.0106862,
+      1745423160.05038,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      31,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423160.0680702,
+      1745423160.0872672,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      31,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423160.113167,
+      1745423160.1379235,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      32,
+      null,
+      209652396,
+      null,
+      0.5766815180632348,
+      11.814058303833008,
+      1,
+      1745423160.153284,
+      1745423171.968613,
+      {}
+    ],
+    [
+      32,
+      null,
+      398764591,
+      null,
+      0.5766815180632348,
+      10.165178060531616,
+      1,
+      1745423171.9863622,
+      1745423182.1529346,
+      {}
+    ],
+    [
+      32,
+      null,
+      924231285,
+      null,
+      0.5766815180632348,
+      10.658907413482666,
+      1,
+      1745423182.1701455,
+      1745423192.8303888,
+      {}
+    ],
+    [
+      33,
+      null,
+      209652396,
+      null,
+      1.0,
+      6.008370876312256,
+      1,
+      1745423192.8474972,
+      1745423198.8572173,
+      {}
+    ],
+    [
+      33,
+      null,
+      398764591,
+      null,
+      1.0,
+      6.0602216720581055,
+      1,
+      1745423198.866656,
+      1745423204.9281943,
+      {}
+    ],
+    [
+      33,
+      null,
+      924231285,
+      null,
+      1.0,
+      6.061490297317505,
+      1,
+      1745423204.9525423,
+      1745423211.015359,
+      {}
+    ],
+    [
+      34,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423212.8561969,
+      1745423212.8847938,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ],
+    [
+      34,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745423212.9064057,
+      1745423212.9161923,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 390, in run_experiment_smac\n    model, training_time = train_GP(p, data)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 426, in train_GP\n    model.fit(data[\"train\"][\"X\"], data[\"train\"][\"Y\"])\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/base.py\", line 1389, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/sklearn/gaussian_process/_gpr.py\", line 346, in fit\n    self.L_ = cholesky(K, lower=GPR_CHOLESKY_LOWER, check_finite=False)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 101, in cholesky\n    c, lower = _cholesky(a, lower=lower, overwrite_a=overwrite_a, clean=True,\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/scipy/linalg/_decomp_cholesky.py\", line 38, in _cholesky\n    raise LinAlgError(\"%d-th leading minor of the array is not positive \"\nnumpy.linalg.LinAlgError: (\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')\n",
+        "error": "LinAlgError(\"The kernel, DotProduct(sigma_0=1), is not returning a positive definite matrix. Try gradually increasing the 'alpha' parameter of your GaussianProcessRegressor estimator.\", '23-th leading minor of the array is not positive definite')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 2
+    },
+    "2": {
+      "bl_gp_kernel": "RationalQuadratic",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 6
+    },
+    "3": {
+      "bl_gp_kernel": "Matern",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 5
+    },
+    "4": {
+      "bl_gp_kernel": "None",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 8
+    },
+    "5": {
+      "bl_gp_kernel": "ConstantKernel",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 9
+    },
+    "6": {
+      "bl_gp_kernel": "RBF",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 4
+    },
+    "7": {
+      "bl_gp_kernel": "WhiteKernel",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 7
+    },
+    "8": {
+      "bl_gp_kernel": "ExpSineSquared",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 1
+    },
+    "9": {
+      "bl_gp_kernel": "ExpSineSquared",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 3
+    },
+    "10": {
+      "bl_gp_kernel": "WhiteKernel",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 10
+    },
+    "11": {
+      "bl_gp_kernel": "RBF",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 0
+    },
+    "12": {
+      "bl_gp_kernel": "ConstantKernel",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 7
+    },
+    "13": {
+      "bl_gp_kernel": "None",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 6
+    },
+    "14": {
+      "bl_gp_kernel": "Matern",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 2
+    },
+    "15": {
+      "bl_gp_kernel": "RationalQuadratic",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 9
+    },
+    "16": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 4
+    },
+    "17": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 7
+    },
+    "18": {
+      "bl_gp_kernel": "RationalQuadratic",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 1
+    },
+    "19": {
+      "bl_gp_kernel": "Matern",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 9
+    },
+    "20": {
+      "bl_gp_kernel": "None",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 3
+    },
+    "21": {
+      "bl_gp_kernel": "ConstantKernel",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 4
+    },
+    "22": {
+      "bl_gp_kernel": "RBF",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 8
+    },
+    "23": {
+      "bl_gp_kernel": "WhiteKernel",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 2
+    },
+    "24": {
+      "bl_gp_kernel": "ExpSineSquared",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 5
+    },
+    "25": {
+      "bl_gp_kernel": "ExpSineSquared",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 8
+    },
+    "26": {
+      "bl_gp_kernel": "Matern",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 4
+    },
+    "27": {
+      "bl_gp_kernel": "None",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 2
+    },
+    "28": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 3
+    },
+    "29": {
+      "bl_gp_kernel": "ConstantKernel",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 0
+    },
+    "30": {
+      "bl_gp_kernel": "ConstantKernel",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 10
+    },
+    "31": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 8
+    },
+    "32": {
+      "bl_gp_kernel": "WhiteKernel",
+      "bl_gp_normalize_y": "True",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 5
+    },
+    "33": {
+      "bl_gp_kernel": "None",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 0
+    },
+    "34": {
+      "bl_gp_kernel": "DotProduct",
+      "bl_gp_normalize_y": "False",
+      "bl_gp_optimizer": "fmin_l_bfgs_b",
+      "bl_gp_restarts": 0
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol",
+    "9": "Initial Design: Sobol",
+    "10": "Initial Design: Sobol",
+    "11": "Initial Design: Sobol",
+    "12": "Initial Design: Sobol",
+    "13": "Initial Design: Sobol",
+    "14": "Initial Design: Sobol",
+    "15": "Initial Design: Sobol",
+    "16": "Initial Design: Sobol",
+    "17": "Initial Design: Sobol",
+    "18": "Initial Design: Sobol",
+    "19": "Initial Design: Sobol",
+    "20": "Initial Design: Sobol",
+    "21": "Initial Design: Sobol",
+    "22": "Initial Design: Sobol",
+    "23": "Initial Design: Sobol",
+    "24": "Initial Design: Sobol",
+    "25": "Initial Design: Sobol",
+    "26": "Acquisition Function Maximizer: Local Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Acquisition Function Maximizer: Local Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Local Search",
+    "34": "Acquisition Function Maximizer: Local Search"
+  }
+}

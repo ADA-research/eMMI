@@ -1,0 +1,2212 @@
+{
+  "stats": {
+    "submitted": 100,
+    "finished": 100,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.2871642,
+      1745422394.3609495,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      1,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.36822,
+      1745422394.4785252,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.5133944,
+      1745422394.57769,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      2,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.593877,
+      1745422394.6587389,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      1,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.6775708,
+      1745422394.738334,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      3,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.7575095,
+      1745422394.9327824,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      3,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422394.9520695,
+      1745422395.0124073,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      3,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.0316732,
+      1745422395.0916462,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      4,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.1122973,
+      1745422395.2920225,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      4,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.3119109,
+      1745422395.3736799,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      4,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.3933284,
+      1745422395.4546404,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      5,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.4758346,
+      1745422395.5369685,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      5,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.5566895,
+      1745422395.6169176,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      5,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.6366022,
+      1745422395.6964738,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      6,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.7181466,
+      1745422395.799851,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      6,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.8132787,
+      1745422395.8748596,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      6,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.8946204,
+      1745422395.954693,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      7,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422395.9731648,
+      1745422396.042557,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      7,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.062121,
+      1745422396.1226223,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      7,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.1419537,
+      1745422396.2045534,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      8,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.225043,
+      1745422396.2855065,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      8,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.3093388,
+      1745422396.3708055,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      8,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.391533,
+      1745422396.4542723,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      9,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.477207,
+      1745422396.5385034,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      9,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.5587475,
+      1745422396.639351,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      9,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.6610487,
+      1745422396.7425685,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      10,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.7651808,
+      1745422396.8375673,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      10,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422396.8557703,
+      1745422397.1803317,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      10,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.2020762,
+      1745422397.2627807,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      11,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.2869575,
+      1745422397.374509,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      11,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.401466,
+      1745422397.437024,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      11,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.4459608,
+      1745422397.4807854,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      12,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.4926422,
+      1745422397.5285375,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      12,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.5378568,
+      1745422397.5740585,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      12,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.583671,
+      1745422397.6196902,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      13,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.63688,
+      1745422397.672589,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      13,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.6825237,
+      1745422397.7190928,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      13,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.728847,
+      1745422397.7640998,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      14,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.7794154,
+      1745422397.81407,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      14,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.832067,
+      1745422397.8679533,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      14,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.8794646,
+      1745422397.9139373,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      15,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.938232,
+      1745422397.9756339,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      15,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422397.9937592,
+      1745422398.0346859,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      15,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.0483625,
+      1745422398.0830631,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      16,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.105403,
+      1745422398.1403277,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      16,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.1564555,
+      1745422398.1906588,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      16,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.2077246,
+      1745422398.241921,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      17,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.2609143,
+      1745422398.3080754,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      17,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.3299096,
+      1745422398.4184885,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      17,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.4511728,
+      1745422398.5476656,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      18,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.5881445,
+      1745422398.8324008,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      18,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422398.8620307,
+      1745422399.0005188,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      18,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.0239687,
+      1745422399.0959468,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      19,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.122515,
+      1745422399.2789924,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      19,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.30216,
+      1745422399.367811,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      19,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.4085205,
+      1745422399.5059922,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      20,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.544399,
+      1745422399.8570502,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      20,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.8804293,
+      1745422399.959942,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      20,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422399.983877,
+      1745422400.055792,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      21,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.0827172,
+      1745422400.1583128,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      21,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.1830535,
+      1745422400.2888288,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      21,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.3135011,
+      1745422400.4375339,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      22,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.4664567,
+      1745422400.549684,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      22,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.583047,
+      1745422400.7211566,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      22,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.7463388,
+      1745422400.8337224,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      23,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422400.8618665,
+      1745422400.9996264,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      23,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.0218294,
+      1745422401.1200702,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      23,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.1426435,
+      1745422401.3105752,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      24,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.3283088,
+      1745422401.4258153,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      24,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.451105,
+      1745422401.531794,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      24,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.557102,
+      1745422401.6495125,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      25,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.6841102,
+      1745422401.806666,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      25,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.8322225,
+      1745422401.9664311,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      25,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422401.9914396,
+      1745422402.0898063,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      26,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422406.7858193,
+      1745422406.8790998,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      26,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422406.9052942,
+      1745422407.011552,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      26,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.0361078,
+      1745422407.1078618,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      27,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.1400259,
+      1745422407.1840606,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      27,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.2053945,
+      1745422407.2407017,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      27,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.2592535,
+      1745422407.2984126,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      28,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.3283737,
+      1745422407.3663633,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      28,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.403813,
+      1745422407.4395394,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      28,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.4553595,
+      1745422407.4916832,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      29,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.5211527,
+      1745422407.556375,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      29,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.575392,
+      1745422407.6104796,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      29,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.6290305,
+      1745422407.664867,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      30,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.6898952,
+      1745422407.724849,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      30,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.7488012,
+      1745422407.7853358,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      30,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.806477,
+      1745422407.8436027,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      31,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.8711083,
+      1745422407.906176,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      31,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422407.951034,
+      1745422408.0221567,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      31,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422408.0569603,
+      1745422408.1213455,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      32,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422408.1948676,
+      1745422408.404086,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      32,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422408.4500964,
+      1745422408.5748777,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      32,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422408.6144354,
+      1745422408.7591212,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      33,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422408.8270023,
+      1745422409.3162858,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      33,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422409.343378,
+      1745422409.8080518,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      33,
+      null,
+      924231285,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422409.83753,
+      1745422409.9277658,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      34,
+      null,
+      209652396,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422415.741391,
+      1745422415.8159354,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ],
+    [
+      34,
+      null,
+      398764591,
+      null,
+      Infinity,
+      0.0,
+      2,
+      1745422415.8333576,
+      1745422415.876505,
+      {
+        "traceback": "Traceback (most recent call last):\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 186, in run\n    rval = self(config_copy, target_function, kwargs)\n  File \"/home/arp/anaconda3/envs/RTM/lib/python3.10/site-packages/smac/runner/target_function_runner.py\", line 259, in __call__\n    return algorithm(config, **algorithm_kwargs)\n  File \"/home/arp/AutoIPQ/HPO.py\", line 441, in run_experiment_smac\n    preds = run_AutoIPQ(p, data[\"val\"], i, sim, test_X, variant=\"Dual-AutoIPQ\", wsm=warm_start_model)\n  File \"/home/arp/AutoIPQ/shared_methods.py\", line 227, in run_AutoIPQ\n    \"budget_split\": [p[\"method_budget_split_a\"], p[\"method_budget_split_b\"], p[\"method_budget_split_c\"]],\nKeyError: 'method_budget_split_a'\n",
+        "error": "KeyError('method_budget_split_a')"
+      }
+    ]
+  ],
+  "configs": {
+    "1": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.6205646954477,
+      "method_dual_budget_split_b": 0.1075078817084,
+      "method_dual_budget_split_c": 0.2117762370035,
+      "method_dual_diversity_weight": 0.8613398345187,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.9599759148058,
+      "method_dual_k": 100,
+      "method_dual_learning_rate": 0.7721376285684,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 94,
+      "method_dual_random_exploration_proportion": 0.7631335956976,
+      "method_dual_density_filter_percentile": 50,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "2": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.1049213809893,
+      "method_dual_budget_split_b": 0.9926271988079,
+      "method_dual_budget_split_c": 0.8745677331463,
+      "method_dual_diversity_weight": 0.1034820033237,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.2493074113325,
+      "method_dual_k": 2,
+      "method_dual_learning_rate": 0.1019360711653,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 33,
+      "method_dual_random_exploration_proportion": 0.4576568994671,
+      "method_dual_constraint_penalty": 3
+    },
+    "3": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.9775759419426,
+      "method_dual_budget_split_b": 0.4157668575644,
+      "method_dual_budget_split_c": 0.2837249552831,
+      "method_dual_diversity_weight": 0.3478596108034,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.6275009100498,
+      "method_dual_k": 43,
+      "method_dual_learning_rate": 0.3180351942913,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 10,
+      "method_dual_random_exploration_proportion": 0.7414936311543,
+      "method_dual_constraint_penalty": 4
+    },
+    "4": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.4932113811374,
+      "method_dual_budget_split_b": 0.5623588841408,
+      "method_dual_budget_split_c": 0.6307286443189,
+      "method_dual_diversity_weight": 0.6247613606974,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.4167737331306,
+      "method_dual_k": 58,
+      "method_dual_learning_rate": 0.5579727909327,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 72,
+      "method_dual_random_exploration_proportion": 0.0455207424238,
+      "method_dual_density_filter_percentile": 50,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "5": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.8404381582513,
+      "method_dual_budget_split_b": 0.868508852087,
+      "method_dual_budget_split_c": 0.5184267554432,
+      "method_dual_diversity_weight": 0.6769303837791,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.5309719538322,
+      "method_dual_k": 35,
+      "method_dual_learning_rate": 0.451551021994,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 53,
+      "method_dual_random_exploration_proportion": 0.1308142933995,
+      "method_dual_density_filter_percentile": 31,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "6": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.3248219396919,
+      "method_dual_budget_split_b": 0.2336412975565,
+      "method_dual_budget_split_c": 0.4272881597281,
+      "method_dual_diversity_weight": 0.4207497155294,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.3046879376574,
+      "method_dual_k": 66,
+      "method_dual_learning_rate": 0.6724457322828,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 16,
+      "method_dual_random_exploration_proportion": 0.5899764401838,
+      "method_dual_constraint_penalty": 5
+    },
+    "7": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.7020538914949,
+      "method_dual_budget_split_b": 0.6864705104381,
+      "method_dual_budget_split_c": 0.9771018531173,
+      "method_dual_diversity_weight": 0.159284167923,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.8224835992669,
+      "method_dual_k": 77,
+      "method_dual_learning_rate": 0.9036966777028,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 44,
+      "method_dual_random_exploration_proportion": 0.3748047547415,
+      "method_dual_constraint_penalty": 1
+    },
+    "8": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.2176627265289,
+      "method_dual_budget_split_b": 0.2896419800818,
+      "method_dual_budget_split_c": 0.0779726915061,
+      "method_dual_diversity_weight": 0.9306006124243,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.0961509692502,
+      "method_dual_k": 24,
+      "method_dual_learning_rate": 0.2222648793373,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 81,
+      "method_dual_random_exploration_proportion": 0.9122093804181,
+      "method_dual_density_filter_percentile": 69,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "9": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.9335821578279,
+      "method_dual_budget_split_b": 0.696864657104,
+      "method_dual_budget_split_c": 0.4784888615832,
+      "method_dual_diversity_weight": 0.0579103212804,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.6207911165106,
+      "method_dual_k": 27,
+      "method_dual_learning_rate": 0.4118287568016,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 1,
+      "method_dual_random_exploration_proportion": 0.2377721993253,
+      "method_dual_density_filter_percentile": 40,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "10": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.4179429318756,
+      "method_dual_budget_split_b": 0.343701062724,
+      "method_dual_budget_split_c": 0.5768338786438,
+      "method_dual_diversity_weight": 0.781955383718,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.3319312235393,
+      "method_dual_k": 74,
+      "method_dual_learning_rate": 0.714121102944,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 63,
+      "method_dual_random_exploration_proportion": 0.5416733045131,
+      "method_dual_constraint_penalty": 6
+    },
+    "11": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.5405276287347,
+      "method_dual_budget_split_b": 0.7639107974246,
+      "method_dual_budget_split_c": 0.0192105500028,
+      "method_dual_diversity_weight": 0.5444127526134,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.7950569787817,
+      "method_dual_k": 82,
+      "method_dual_learning_rate": 0.9909343666793,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 91,
+      "method_dual_random_exploration_proportion": 0.2590425275266,
+      "method_dual_constraint_penalty": 10
+    },
+    "12": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.0561747299507,
+      "method_dual_budget_split_b": 0.1487862123176,
+      "method_dual_budget_split_c": 0.926752560772,
+      "method_dual_diversity_weight": 0.3032787889242,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.0062709582886,
+      "method_dual_k": 19,
+      "method_dual_learning_rate": 0.1330740848921,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 29,
+      "method_dual_random_exploration_proportion": 0.9536918373778,
+      "method_dual_density_filter_percentile": 61,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "13": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.6524140201509,
+      "method_dual_budget_split_b": 0.4676286298782,
+      "method_dual_budget_split_c": 0.7851460557431,
+      "method_dual_diversity_weight": 0.4964713323861,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.9249031826425,
+      "method_dual_k": 92,
+      "method_dual_learning_rate": 0.8725587869094,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 47,
+      "method_dual_random_exploration_proportion": 0.8710795063525,
+      "method_dual_density_filter_percentile": 66,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "14": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.1368089718744,
+      "method_dual_budget_split_b": 0.5710440017283,
+      "method_dual_budget_split_c": 0.1295476295054,
+      "method_dual_diversity_weight": 0.7261610813439,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.1516892600416,
+      "method_dual_k": 9,
+      "method_dual_learning_rate": 0.0034680182931,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 84,
+      "method_dual_random_exploration_proportion": 0.4083657590672,
+      "method_dual_constraint_penalty": 8
+    },
+    "15": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.7640936216339,
+      "method_dual_budget_split_b": 0.0248500173911,
+      "method_dual_budget_split_c": 0.7125788647681,
+      "method_dual_diversity_weight": 0.9788385275751,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.7251798351189,
+      "method_dual_k": 48,
+      "method_dual_learning_rate": 0.2954025944999,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 62,
+      "method_dual_random_exploration_proportion": 0.6267270417884,
+      "method_dual_constraint_penalty": 8
+    },
+    "16": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.2797060534358,
+      "method_dual_budget_split_b": 0.8897380838171,
+      "method_dual_budget_split_c": 0.3740051910281,
+      "method_dual_diversity_weight": 0.2359642349184,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.4520298446003,
+      "method_dual_k": 53,
+      "method_dual_learning_rate": 0.5786522852554,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 25,
+      "method_dual_random_exploration_proportion": 0.0860075615346,
+      "method_dual_density_filter_percentile": 34,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "17": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.7933998797089,
+      "method_dual_budget_split_b": 0.3562785768881,
+      "method_dual_budget_split_c": 0.9552795412019,
+      "method_dual_diversity_weight": 0.5844848416746,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.1884716831204,
+      "method_dual_k": 46,
+      "method_dual_learning_rate": 0.7191432534778,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 69,
+      "method_dual_random_exploration_proportion": 0.7958821617067
+    },
+    "18": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.3090392621234,
+      "method_dual_budget_split_b": 0.7448177775368,
+      "method_dual_budget_split_c": 0.1146306609735,
+      "method_dual_diversity_weight": 0.3256494943053,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.9772617231615,
+      "method_dual_k": 55,
+      "method_dual_learning_rate": 0.4048652427967,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 7,
+      "method_dual_random_exploration_proportion": 0.4913839967921,
+      "method_dual_constraint_penalty": 6,
+      "method_dual_density_filter_percentile": 59,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "19": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.6855998272076,
+      "method_dual_budget_split_b": 0.1674653403461,
+      "method_dual_budget_split_c": 0.5394586483017,
+      "method_dual_diversity_weight": 0.0631921179593,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.3959481762926,
+      "method_dual_k": 91,
+      "method_dual_learning_rate": 0.1752011788063,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 28,
+      "method_dual_random_exploration_proportion": 0.7077761320397,
+      "method_dual_constraint_penalty": 9,
+      "method_dual_density_filter_percentile": 42,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "20": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.1699530612677,
+      "method_dual_budget_split_b": 0.8096685502678,
+      "method_dual_budget_split_c": 0.3898416860029,
+      "method_dual_diversity_weight": 0.839116351679,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.6847964129472,
+      "method_dual_k": 11,
+      "method_dual_learning_rate": 0.9507487554443,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 90,
+      "method_dual_random_exploration_proportion": 0.0127778369933
+    },
+    "21": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.5113510107622,
+      "method_dual_budget_split_b": 0.6206994531676,
+      "method_dual_budget_split_c": 0.273625921458,
+      "method_dual_diversity_weight": 0.8922619372606,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.2581046550723,
+      "method_dual_k": 86,
+      "method_dual_learning_rate": 0.0553570148798,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 85,
+      "method_dual_random_exploration_proportion": 0.1625879080966
+    },
+    "22": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.0269559025764,
+      "method_dual_budget_split_b": 0.4824120299891,
+      "method_dual_budget_split_c": 0.6869052257389,
+      "method_dual_diversity_weight": 0.1351056601852,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.5312587321935,
+      "method_dual_k": 14,
+      "method_dual_learning_rate": 0.8186977903704,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 48,
+      "method_dual_random_exploration_proportion": 0.6246780119836,
+      "method_dual_constraint_penalty": 9,
+      "method_dual_density_filter_percentile": 36,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "23": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.9002818502486,
+      "method_dual_budget_split_b": 0.933780213818,
+      "method_dual_budget_split_c": 0.2210786491632,
+      "method_dual_diversity_weight": 0.3824282214046,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.0915919980539,
+      "method_dual_k": 31,
+      "method_dual_learning_rate": 0.605162108859,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 20,
+      "method_dual_random_exploration_proportion": 0.3401090819389,
+      "method_dual_constraint_penalty": 7,
+      "method_dual_density_filter_percentile": 64,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "24": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.3846690831706,
+      "method_dual_budget_split_b": 0.0413404852152,
+      "method_dual_budget_split_c": 0.8175926301628,
+      "method_dual_diversity_weight": 0.6527690570801,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.8647942121845,
+      "method_dual_k": 69,
+      "method_dual_learning_rate": 0.2708646516404,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 57,
+      "method_dual_random_exploration_proportion": 0.8804451255128
+    },
+    "25": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.7314176177606,
+      "method_dual_budget_split_b": 0.9485631398857,
+      "method_dual_budget_split_c": 0.7217709058896,
+      "method_dual_diversity_weight": 0.2810553302988,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.3557838483597,
+      "method_dual_k": 79,
+      "method_dual_learning_rate": 0.0815220113666,
+      "method_dual_optimiser_1": "GD",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 38,
+      "method_dual_random_exploration_proportion": 0.2040550895035
+    },
+    "26": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.518668934535,
+      "method_dual_budget_split_b": 0.1374515223702,
+      "method_dual_budget_split_c": 0.3804074184864,
+      "method_dual_diversity_weight": 0.8246551681251,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.6098406214205,
+      "method_dual_k": 97,
+      "method_dual_learning_rate": 0.3921871788711,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 96,
+      "method_dual_random_exploration_proportion": 0.2112120213144,
+      "method_dual_constraint_penalty": 5,
+      "method_dual_density_filter_percentile": 10,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "27": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.7470261042441,
+      "method_dual_budget_split_b": 0.400368606338,
+      "method_dual_budget_split_c": 0.8936789034137,
+      "method_dual_diversity_weight": 0.49835746995,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.3737567150389,
+      "method_dual_k": 46,
+      "method_dual_learning_rate": 0.503945243386,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 51,
+      "method_dual_random_exploration_proportion": 0.8646144408077
+    },
+    "28": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.1088516790074,
+      "method_dual_budget_split_b": 0.1095896278381,
+      "method_dual_budget_split_c": 0.2838247257407,
+      "method_dual_diversity_weight": 0.5314262330661,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.5615245353377,
+      "method_dual_k": 14,
+      "method_dual_learning_rate": 0.3424236103114,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 73,
+      "method_dual_random_exploration_proportion": 0.2511958257785,
+      "method_dual_constraint_penalty": 3,
+      "method_dual_density_filter_percentile": 30,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "29": {
+      "constraint_penalty_inf": "True",
+      "method_dual_budget_split_a": 0.132234428963,
+      "method_dual_budget_split_b": 0.0049253374969,
+      "method_dual_budget_split_c": 0.926752560772,
+      "method_dual_diversity_weight": 0.3032787889242,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.0062709582886,
+      "method_dual_k": 16,
+      "method_dual_learning_rate": 0.1330740848921,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "GD",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 17,
+      "method_dual_random_exploration_proportion": 0.9536918373778,
+      "method_dual_density_filter_percentile": 59,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "30": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.7933998797089,
+      "method_dual_budget_split_b": 0.3724223494999,
+      "method_dual_budget_split_c": 0.9423133950603,
+      "method_dual_diversity_weight": 0.5391242815278,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.1884716831204,
+      "method_dual_k": 45,
+      "method_dual_learning_rate": 0.7191432534778,
+      "method_dual_optimiser_1": "HC",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "HC",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 65,
+      "method_dual_random_exploration_proportion": 0.6743236577559,
+      "method_dual_constraint_penalty": 3,
+      "method_dual_density_filter_percentile": 10,
+      "method_dual_density_filter_same_class": "False"
+    },
+    "31": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.7020538914949,
+      "method_dual_budget_split_b": 0.6864705104381,
+      "method_dual_budget_split_c": 0.9771018531173,
+      "method_dual_diversity_weight": 0.159284167923,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.8224835992669,
+      "method_dual_k": 70,
+      "method_dual_learning_rate": 0.8845445955954,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "RS",
+      "method_dual_optimiser_2b": "GD",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "RS",
+      "method_dual_population_size": 42,
+      "method_dual_random_exploration_proportion": 0.4434786515594,
+      "method_dual_constraint_penalty": 9
+    },
+    "32": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.2797060534358,
+      "method_dual_budget_split_b": 0.8897380838171,
+      "method_dual_budget_split_c": 0.3708577123327,
+      "method_dual_diversity_weight": 0.2359642349184,
+      "method_dual_filter_density": "True",
+      "method_dual_init_noise": 0.4520298446003,
+      "method_dual_k": 43,
+      "method_dual_learning_rate": 0.5771866586015,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "CMAES",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 22,
+      "method_dual_random_exploration_proportion": 0.0860075615346,
+      "method_dual_constraint_penalty": 3,
+      "method_dual_density_filter_percentile": 34,
+      "method_dual_density_filter_same_class": "True"
+    },
+    "33": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.4800620227016,
+      "method_dual_budget_split_b": 0.2425017227943,
+      "method_dual_budget_split_c": 0.5768338786438,
+      "method_dual_diversity_weight": 0.781955383718,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.3319312235393,
+      "method_dual_k": 74,
+      "method_dual_learning_rate": 0.6671383128702,
+      "method_dual_optimiser_1": "RS",
+      "method_dual_optimiser_2a": "GD",
+      "method_dual_optimiser_2b": "RS",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "GD",
+      "method_dual_population_size": 42,
+      "method_dual_random_exploration_proportion": 0.5416733045131,
+      "method_dual_constraint_penalty": 6
+    },
+    "34": {
+      "constraint_penalty_inf": "False",
+      "method_dual_budget_split_a": 0.7375708830716,
+      "method_dual_budget_split_b": 0.298302144976,
+      "method_dual_budget_split_c": 0.8909474847764,
+      "method_dual_diversity_weight": 0.49835746995,
+      "method_dual_filter_density": "False",
+      "method_dual_init_noise": 0.4547926735789,
+      "method_dual_k": 46,
+      "method_dual_learning_rate": 0.571323397715,
+      "method_dual_optimiser_1": "CMAES",
+      "method_dual_optimiser_2a": "HC",
+      "method_dual_optimiser_2b": "HC",
+      "method_dual_optimiser_2c": "RS",
+      "method_dual_optimiser_2d": "HC",
+      "method_dual_population_size": 49,
+      "method_dual_random_exploration_proportion": 0.8646144408077,
+      "method_dual_constraint_penalty": 3
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol",
+    "9": "Initial Design: Sobol",
+    "10": "Initial Design: Sobol",
+    "11": "Initial Design: Sobol",
+    "12": "Initial Design: Sobol",
+    "13": "Initial Design: Sobol",
+    "14": "Initial Design: Sobol",
+    "15": "Initial Design: Sobol",
+    "16": "Initial Design: Sobol",
+    "17": "Initial Design: Sobol",
+    "18": "Initial Design: Sobol",
+    "19": "Initial Design: Sobol",
+    "20": "Initial Design: Sobol",
+    "21": "Initial Design: Sobol",
+    "22": "Initial Design: Sobol",
+    "23": "Initial Design: Sobol",
+    "24": "Initial Design: Sobol",
+    "25": "Initial Design: Sobol",
+    "26": "Acquisition Function Maximizer: Local Search",
+    "27": "Acquisition Function Maximizer: Local Search",
+    "28": "Acquisition Function Maximizer: Local Search",
+    "29": "Acquisition Function Maximizer: Local Search",
+    "30": "Acquisition Function Maximizer: Local Search",
+    "31": "Acquisition Function Maximizer: Local Search",
+    "32": "Acquisition Function Maximizer: Local Search",
+    "33": "Acquisition Function Maximizer: Local Search",
+    "34": "Acquisition Function Maximizer: Local Search"
+  }
+}

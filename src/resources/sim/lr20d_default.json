@@ -1,0 +1,51 @@
+{
+    "default_params": {
+        "w1": 1,
+        "w2": 1,
+        "w3": 1,
+        "w4": 1,
+        "w5": 1,
+        "w6": 1,
+        "w7": 1,
+        "w8": 1,
+        "w9": 1,
+        "w10": 1,
+        "w11": 1,
+        "w12": 1,
+        "w13": 1,
+        "w14": 1,
+        "w15": 1,
+        "w16": 1,
+        "w17": 1,
+        "w18": 1,
+        "w19": 1,
+        "w20": 1,
+        "b": 0
+    },
+
+    "default_param_ranges": {
+        "w1":["uniform", "float", -10.0, 10.0],
+        "w2":["uniform", "float", -10.0, 10.0],
+        "w3":["uniform", "float", -10.0, 10.0],
+        "w4":["uniform", "float", -10.0, 10.0],
+        "w5":["uniform", "float", -10.0, 10.0],
+        "w6":["uniform", "float", -10.0, 10.0],
+        "w7":["uniform", "float", -10.0, 10.0],
+        "w8":["uniform", "float", -10.0, 10.0],
+        "w9":["uniform", "float", -10.0, 10.0],
+        "w10":["uniform", "float", -10.0, 10.0],
+        "w11":["uniform", "float", -10.0, 10.0],
+        "w12":["uniform", "float", -10.0, 10.0],
+        "w13":["uniform", "float", -10.0, 10.0],
+        "w14":["uniform", "float", -10.0, 10.0],
+        "w15":["uniform", "float", -10.0, 10.0],
+        "w16":["uniform", "float", -10.0, 10.0],
+        "w17":["uniform", "float", -10.0, 10.0],
+        "w18":["uniform", "float", -10.0, 10.0],
+        "w19":["uniform", "float", -10.0, 10.0],
+        "w20":["uniform", "float", -10.0, 10.0],
+        "b":["uniform", "float", -100.0, 100.0]
+    },
+
+    "output_dim": 100
+}

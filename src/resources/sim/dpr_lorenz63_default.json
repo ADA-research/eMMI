@@ -1,0 +1,15 @@
+{
+    "default_params": {
+        "x1": 1.509,
+        "x2": -1.531,
+        "x3": 25.46
+    },
+
+    "default_param_ranges": {
+        "x1":["uniform", "float", -10.0, 10.0],
+        "x2":["uniform", "float", -10.0, 10.0],
+        "x3":["uniform", "float", 10.0, 35.0]
+    }, 
+
+    "output_dim": 3
+}
